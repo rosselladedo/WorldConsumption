@@ -41,12 +41,12 @@ def load_lottie_file(file_path: str):
         return None
 
 #caricamento animazioni pagine
-lottie_earth = load_lottie_file('/content/drive/MyDrive/Tesi/Animations/world_Page.json') #animazione mondo pagina iniziale
-lottie_sun = load_lottie_file('/content/drive/MyDrive/Tesi/Animations/sun.json') #animazione sole pagine
-lottie_spin = load_lottie_file('/content/drive/MyDrive/Tesi/Animations/world_spin.json') #animazione mondo pagine
-lottie_clouds = load_lottie_file('/content/drive/MyDrive/Tesi/Animations/clouds.json') #animazione mondo pagine
-lottie_wind = load_lottie_file('/content/drive/MyDrive/Tesi/Animations/wind.json') #animazione mondo pagine
-lottie_click = load_lottie_file('/content/drive/MyDrive/Tesi/Animations/click.json') #animazione mondo pagine
+lottie_earth = load_lottie_file('world_Page.json') #animazione mondo pagina iniziale
+lottie_sun = load_lottie_file('sun.json') #animazione sole pagine
+lottie_spin = load_lottie_file('world_spin.json') #animazione mondo pagine
+lottie_clouds = load_lottie_file('clouds.json') #animazione mondo pagine
+lottie_wind = load_lottie_file('wind.json') #animazione mondo pagine
+lottie_click = load_lottie_file('click.json') #animazione mondo pagine
 
 
 # --- Funzioni per la gestione dei preferiti
