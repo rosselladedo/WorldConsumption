@@ -1,0 +1,15 @@
+{
+    "preferiti": [
+        {
+            "nome preferito": "Preferito 1",
+            "paese": [
+                "Spain",
+                "Italy",
+                "Germany"
+            ],
+            "anno da": 2000,
+            "anno a": 2020,
+            "energia": "biofuel"
+        }
+    ]
+}
