@@ -10,17 +10,18 @@ import os
 from datetime import datetime
 from meteostat import Stations, Daily
 from streamlit_lottie import st_lottie
+import gdown
 
 # Import funzionalità avanzate
 from prophet import Prophet       
 from sklearn.cluster import KMeans
 
 # --- Caricamento dei dataset
-df_fuel = pd.read_csv('/content/drive/MyDrive/Tesi/Dataset/EnergyDecription.csv')
-df = pd.read_csv('/content/drive/MyDrive/Tesi/Dataset/WorldConsumption_Prepdataset.csv')
-df_prod_region= pd.read_csv("/content/drive/MyDrive/Tesi/Dataset/Produzione_elettrica_da_fonti_rinnovabili_regioni.csv")
-coordinates_df= pd.read_csv("/content/drive/MyDrive/Tesi/Dataset/cities_coordinates.csv")
-cities_df= pd.read_csv("/content/drive/MyDrive/Tesi/Dataset/citta_italiane.csv")
+df_fuel = pd.read_csv('EnergyDecription.csv')
+df = pd.read_csv('WorldConsumption_Prepdataset.csv')
+df_prod_region= pd.read_csv("Produzione_elettrica_da_fonti_rinnovabili_regioni.csv")
+coordinates_df= pd.read_csv("cities_coordinates.csv")
+cities_df= pd.read_csv("citta_italiane.csv")
 
 
 # --- File JSON preferiti
