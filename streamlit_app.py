@@ -1,16 +1,18 @@
 import streamlit as st
 import pandas as pd
-import plotly as px
+import plotly.express as px
 from sklearn.linear_model import LinearRegression
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+from PIL import Image
+from io import BytesIO
 import json
-import os
+import requests
 from datetime import datetime
 from meteostat import Stations, Daily
 from streamlit_lottie import st_lottie
-import gdown
+
 
 # Import funzionalità avanzate
 from prophet import Prophet       
@@ -20,7 +22,7 @@ from sklearn.cluster import KMeans
 df_fuel = pd.read_csv('EnergyDecription.csv')
 df = pd.read_csv('WorldConsumption_Prepdataset.csv')
 df_prod_region= pd.read_csv("Produzione_elettrica_da_fonti_rinnovabili_regioni.csv")
-coordinates_df= pd.read_csv("cities_coordinates.csv")
+#coordinates_df= pd.read_csv("cities_coordinates.csv")
 cities_df= pd.read_csv("citta_italiane.csv")
 
 
@@ -40,14 +42,32 @@ def load_lottie_file(file_path: str):
         print(f"Errore durante il caricamento del file JSON: {e}")  # Mostra eventuali errori
         return None
 
-#caricamento animazioni pagine
-lottie_earth = load_lottie_file('world_Page.json') #animazione mondo pagina iniziale
-lottie_sun = load_lottie_file('sun.json') #animazione sole pagine
-lottie_spin = load_lottie_file('world_spin.json') #animazione mondo pagine
-lottie_clouds = load_lottie_file('clouds.json') #animazione mondo pagine
-lottie_wind = load_lottie_file('wind.json') #animazione mondo pagine
-lottie_click = load_lottie_file('click.json') #animazione mondo pagine
+# funzione per caricare JSON da GitHub
+def load_lottie_url(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        st.error("Errore nel caricamento del JSON.")
+        return None
 
+# Funzione per caricare l'immagine da URL
+def load_image_from_url(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        return Image.open(BytesIO(response.content))
+    else:
+        st.error("Errore nel caricamento dell'immagine.")
+        return None
+
+#caricamento animazioni pagine
+lottie_earth = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/world_Page.json') #animazione mondo pagina iniziale
+lottie_sun = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/sun.json') #animazione sole pagine
+lottie_spin = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/world_spin.json') #animazione mondo pagine
+lottie_clouds = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/clouds.json') #animazione mondo pagine
+lottie_wind = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/wind.json') #animazione mondo pagine
+lottie_click = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/click.json') #animazione mondo pagine
+logo=load_image_from_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/main/logo_dashboard.jpg')
 
 # --- Funzioni per la gestione dei preferiti
 def leggi_preferiti(favorites_file):
@@ -98,8 +118,10 @@ if page == "🌎Home":
       <h3 style='text-align: center;'>Benvenuto nella World Energy dashboard </h3>
       <p style='text-align: center;'>Usa il menu laterale per navigare tra le diverse sezioni. Scopri l'andamento dei consumi energetici e le tendenze future</p>
       """, unsafe_allow_html=True) 
+    
+  
 
-    st.image('/content/drive/MyDrive/Tesi/Animations/logo_dashboard.jpg', use_container_width=True)
+    st.image(logo, use_container_width=True)
 
 
      
@@ -162,7 +184,7 @@ elif page == "✅Preferiti":
 
     col1, col2 = st.columns([6, 1])
     with col2:
-      st.image('/content/drive/MyDrive/Tesi/logo_dashboard.jpg', use_container_width=True)
+      st.image(logo, use_container_width=True)
     with col1:
       st.title(" ")
 
@@ -317,7 +339,7 @@ if page == "📊Analisi":
                   
     col1, col2 = st.columns([6, 1])
     with col2:
-      st.image('/content/drive/MyDrive/Tesi/logo_dashboard.jpg', use_container_width=True)
+      st.image(logo, use_container_width=True)
     with col1:
       st.title(" ")        
 # -------------------- PAGINA FUNZIONALITÀ AVANZATE --------------------
@@ -459,7 +481,7 @@ elif page == "⚒️Funzionalità Avanzate":
 
     col1, col2 = st.columns([6, 1])
     with col2:
-      st.image('/content/drive/MyDrive/Tesi/logo_dashboard.jpg', use_container_width=True)
+      st.image(logo, use_container_width=True)
     with col1:
       st.title(" ")
 
@@ -532,7 +554,7 @@ elif page == "🌫️Meteostat":
 
   col1, col2 = st.columns([6, 1])
   with col2:
-      st.image('/content/drive/MyDrive/Tesi/logo_dashboard.jpg', use_container_width=True)
+      st.image(logo, use_container_width=True)
   with col1:
       st.title(" ")
 
