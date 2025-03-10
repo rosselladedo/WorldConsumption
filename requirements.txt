@@ -1,1 +1,13 @@
 streamlit
+pandas
+plotly
+scikit-learn
+numpy
+seaborn
+matplotlib
+json
+os
+datetime
+meteostat
+streamlit-lottie
+prophet
