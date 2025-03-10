@@ -25,7 +25,7 @@ cities_df= pd.read_csv("citta_italiane.csv")
 
 
 # --- File JSON preferiti
-favorites_file = '/content/drive/MyDrive/Tesi/preferiti.json' #preferiti
+favorites_file = 'preferiti.json' #preferiti
 
 
 
