@@ -633,9 +633,30 @@ elif page == "🌫️Meteostat":
   city_names = cities_df['city'].tolist()
   selected_city = st.selectbox("Seleziona una città", city_names)
 
+  # estraggo la regione in base alla città
+  city_data = cities_df[cities_df["city"] == selected_city].iloc[0]
+  selected_region = city_data["region"]
+
   # Trova le coordinate della città selezionata
-  city_data = cities_df[cities_df['city'] == selected_city].iloc[0]
   lat, lon = city_data['latitude'], city_data['longitude']
+
+  st.write(f"🌍 **Città selezionata:** {selected_city} | **Regione:** {selected_region}")
+
+  # Filtraggio dati per la regione trovata
+  region_data = df_prod_region[df_prod_region["Regioni"] == selected_region]
+  
+    # Visualizzazione della produzione di energia per fonte
+  st.write(f"### Produzione di Energia Rinnovabile in {selected_region}")
+  fig = px.bar(
+        region_data.melt(id_vars=["Regioni"], var_name="Fonte", value_name="Produzione"),
+        x="Fonte", y="Produzione", title=f"Produzione Energetica per Fonte - {selected_region}",
+        color="Fonte", labels={"Produzione": "GWh"}
+    )
+  st.plotly_chart(fig)
+
+  # Indicatori chiave sulla produzione energetica
+  st.metric("Totale Rinnovabili", f"{region_data['Totale rinnov.'].values[0]:,.2f} GWh")
+  st.metric("Totale Produzione", f"{region_data['Totale'].values[0]:,.2f} GWh")
 
   # Input per latitudine e longitudine
   #lat = st.number_input("Inserisci latitudine", value=41.9028, format="%.4f")
@@ -666,6 +687,7 @@ elif page == "🌫️Meteostat":
             fig, ax = plt.subplots(figsize=(10, 6))
             data[['tavg', 'tmin', 'tmax']].plot(ax=ax, color=['blue', 'green', 'red'])
             
+            
             # Etichette e titolo
             ax.set_title('Andamento delle Temperature Media, Minima e Massima', fontsize=16)
             ax.set_xlabel('Data', fontsize=12)
@@ -678,10 +700,28 @@ elif page == "🌫️Meteostat":
     else:
         st.error("Nessun dato meteo disponibile per il periodo selezionato.")
 
-  col1, col2 = st.columns([6, 1])
-  with col2:
-      st.image(logo, use_container_width=True)
-  with col1:
-      st.title(" ")
 
-    
+
+#correlazione tra temperatura media e produzione id energia rinnovabile
+  st.write("### 🔗 Correlazione tra Temperatura Media e Produzione di Energia Rinnovabile")
+
+# Creiamo un DataFrame con la media giornaliera della temperatura e la produzione energetica totale
+  production_vs_temp = pd.DataFrame({
+                "Data": data.index,
+                "Temperatura Media (°C)": data["tavg"],
+                "Produzione Totale Rinnovabile (GWh)": region_data["Totale rinnov."].values[0]
+            })
+
+            # Creazione scatter plot interattivo
+  fig_corr = px.scatter(
+                production_vs_temp, x="Temperatura Media (°C)", y="Produzione Totale Rinnovabile (GWh)",
+                title="Relazione tra Temperatura Media e Produzione Rinnovabile",
+                trendline="ols", color_discrete_sequence=["blue"]
+            )
+  st.plotly_chart(fig_corr)
+
+col1, col2 = st.columns([6, 1])
+with col2:
+      st.image(logo, use_container_width=True)
+with col1:
+      st.title(" ")
