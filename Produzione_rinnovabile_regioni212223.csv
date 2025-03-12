@@ -1,0 +1,1606 @@
+Regione,Provincia,Produzione (GWh),Fonte,Anno
+Trentino-Alto Adige,Bolzano/Bozen,6005.4053,Idrico,2021
+Lombardia,Sondrio,5206.887,Idrico,2021
+Puglia,Foggia,4507.7817,Eolico,2021
+Trentino-Alto Adige,Trento,3812.4846,Idrico,2021
+Toscana,Pisa,3127.4036,Geotermoelettrico,2021
+Valle d'Aosta,Aosta,2901.6648,Idrico,2021
+Lombardia,Brescia,2638.2283,Idrico,2021
+Piemonte,Verbano-Cusio-Ossola,2391.391,Idrico,2021
+Veneto,Belluno,2350.8792,Idrico,2021
+Piemonte,Torino,2158.1208,Idrico,2021
+Basilicata,Potenza,2062.9766,Eolico,2021
+Campania,Benevento,1688.0944,Eolico,2021
+Umbria,Terni,1586.0051,Idrico,2021
+Campania,Avellino,1427.6423,Eolico,2021
+Toscana,Siena,1409.5035,Geotermoelettrico,2021
+Toscana,Grosseto,1376.8802,Geotermoelettrico,2021
+Lombardia,Bergamo,1252.2855,Idrico,2021
+Calabria,Catanzaro,1245.3403,Eolico,2021
+Emilia-Romagna,Ravenna,1169.1895,Bioenergie,2021
+Friuli-Venezia Giulia,Udine,1152.4672,Idrico,2021
+Campania,Napoli,983.63666,Bioenergie,2021
+Puglia,Lecce,963.7957,Fotovoltaico,2021
+Piemonte,Cuneo,958.4755,Idrico,2021
+Sardegna,Sassari,941.26605,Eolico,2021
+Sicilia,Trapani,907.3093,Eolico,2021
+Lombardia,Cremona,872.05255,Bioenergie,2021
+Puglia,Foggia,831.4754,Fotovoltaico,2021
+Veneto,Verona,830.4132,Idrico,2021
+Veneto,Treviso,830.2022,Idrico,2021
+Piemonte,Torino,806.0092,Bioenergie,2021
+Sicilia,Palermo,787.04376,Eolico,2021
+Calabria,Crotone,777.5842,Bioenergie,2021
+Friuli-Venezia Giulia,Pordenone,763.9389,Idrico,2021
+Lombardia,Pavia,754.5646,Bioenergie,2021
+Calabria,Crotone,747.6908,Eolico,2021
+Lombardia,Brescia,744.34283,Bioenergie,2021
+Puglia,Bari,716.11804,Bioenergie,2021
+Puglia,Brindisi,706.38245,Fotovoltaico,2021
+Lazio,Viterbo,652.539,Fotovoltaico,2021
+Puglia,Bari,650.6993,Fotovoltaico,2021
+Piemonte,Cuneo,641.2829,Fotovoltaico,2021
+Basilicata,Matera,588.7797,Eolico,2021
+Toscana,Lucca,566.84717,Idrico,2021
+Emilia-Romagna,Ferrara,542.8708,Bioenergie,2021
+Lazio,Roma,539.92395,Fotovoltaico,2021
+Veneto,Venezia,530.6696,Bioenergie,2021
+Lombardia,Mantova,526.11285,Bioenergie,2021
+Lombardia,Brescia,521.498,Fotovoltaico,2021
+Calabria,Cosenza,511.2227,Bioenergie,2021
+Calabria,Cosenza,511.199,Idrico,2021
+Molise,Campobasso,502.70325,Eolico,2021
+Puglia,Taranto,493.98788,Fotovoltaico,2021
+Piemonte,Torino,487.99265,Fotovoltaico,2021
+Emilia-Romagna,Ravenna,484.16187,Fotovoltaico,2021
+Lombardia,Lodi,480.1909,Bioenergie,2021
+Abruzzo,Chieti,479.45743,Idrico,2021
+Sicilia,Agrigento,471.72397,Eolico,2021
+Veneto,Padova,445.71323,Bioenergie,2021
+Lazio,Frosinone,433.8806,Idrico,2021
+Abruzzo,Teramo,430.39435,Idrico,2021
+Veneto,Verona,428.26627,Fotovoltaico,2021
+Campania,Salerno,423.76633,Eolico,2021
+Lazio,Roma,418.56384,Idrico,2021
+Sardegna,Sud Sardegna,413.04254,Eolico,2021
+Veneto,Padova,402.34232,Fotovoltaico,2021
+Veneto,Treviso,399.25995,Fotovoltaico,2021
+Umbria,Perugia,397.9694,Fotovoltaico,2021
+Lombardia,Varese,395.4874,Idrico,2021
+Veneto,Rovigo,393.71283,Fotovoltaico,2021
+Emilia-Romagna,Piacenza,390.2352,Idrico,2021
+Lazio,Frosinone,386.6826,Bioenergie,2021
+Emilia-Romagna,Bologna,385.3566,Fotovoltaico,2021
+Veneto,Vicenza,384.58487,Idrico,2021
+Basilicata,Potenza,382.23715,Idrico,2021
+Marche,Macerata,377.7779,Fotovoltaico,2021
+Campania,Caserta,368.13806,Idrico,2021
+Piemonte,Cuneo,361.39996,Bioenergie,2021
+Puglia,Foggia,356.0781,Bioenergie,2021
+Marche,Ancona,355.33502,Fotovoltaico,2021
+Lombardia,Milano,354.6912,Fotovoltaico,2021
+Friuli-Venezia Giulia,Udine,353.24518,Fotovoltaico,2021
+Lombardia,Milano,351.70663,Bioenergie,2021
+Veneto,Vicenza,350.7796,Fotovoltaico,2021
+Lombardia,Bergamo,350.00055,Fotovoltaico,2021
+Sicilia,Catania,346.47827,Eolico,2021
+Friuli-Venezia Giulia,Gorizia,345.0508,Bioenergie,2021
+Abruzzo,Pescara,343.19907,Idrico,2021
+Abruzzo,L'Aquila,337.5828,Idrico,2021
+Emilia-Romagna,Bologna,337.4885,Bioenergie,2021
+Veneto,Verona,334.1128,Bioenergie,2021
+Abruzzo,Chieti,324.62955,Eolico,2021
+Piemonte,Alessandria,324.17047,Fotovoltaico,2021
+Lazio,Latina,314.63232,Fotovoltaico,2021
+Calabria,Cosenza,310.0811,Fotovoltaico,2021
+Lazio,Rieti,309.03464,Idrico,2021
+Sardegna,Cagliari,303.77332,Fotovoltaico,2021
+Marche,Pesaro E Urbino,301.82474,Fotovoltaico,2021
+Puglia,Taranto,301.04886,Eolico,2021
+Emilia-Romagna,Modena,300.85397,Fotovoltaico,2021
+Emilia-Romagna,Modena,300.8459,Bioenergie,2021
+Sicilia,Ragusa,300.4697,Fotovoltaico,2021
+Sicilia,Agrigento,300.40967,Fotovoltaico,2021
+Abruzzo,Teramo,296.8865,Fotovoltaico,2021
+Campania,Salerno,295.545,Fotovoltaico,2021
+Trentino-Alto Adige,Bolzano/Bozen,289.94263,Bioenergie,2021
+Calabria,Crotone,289.86395,Idrico,2021
+Campania,Caserta,287.53604,Fotovoltaico,2021
+Sardegna,Sassari,287.4631,Fotovoltaico,2021
+Lombardia,Milano,284.6263,Idrico,2021
+Abruzzo,Chieti,283.82764,Fotovoltaico,2021
+Piemonte,Alessandria,279.84332,Bioenergie,2021
+Campania,Salerno,277.70486,Idrico,2021
+Sicilia,Catania,275.78024,Fotovoltaico,2021
+Emilia-Romagna,Forlì-Cesena,274.5732,Fotovoltaico,2021
+Sicilia,Messina,274.3347,Eolico,2021
+Trentino-Alto Adige,Bolzano/Bozen,271.29398,Fotovoltaico,2021
+Puglia,Brindisi,270.96085,Bioenergie,2021
+Sardegna,Nuoro,269.51334,Idrico,2021
+Sicilia,Siracusa,268.70068,Fotovoltaico,2021
+Sardegna,Nuoro,261.15747,Bioenergie,2021
+Lombardia,Mantova,253.16261,Fotovoltaico,2021
+Lombardia,Cremona,251.44339,Fotovoltaico,2021
+Basilicata,Matera,245.19899,Fotovoltaico,2021
+Sardegna,Sud Sardegna,243.17519,Fotovoltaico,2021
+Sardegna,Nuoro,241.88559,Eolico,2021
+Friuli-Venezia Giulia,Udine,241.82239,Bioenergie,2021
+Lombardia,Bergamo,241.1467,Bioenergie,2021
+Lombardia,Monza e della Brianza,240.85631,Idrico,2021
+Piemonte,Vercelli,236.39789,Bioenergie,2021
+Puglia,Barletta-Andria-Trani,234.55728,Fotovoltaico,2021
+Veneto,Venezia,232.96042,Fotovoltaico,2021
+Basilicata,Potenza,231.49908,Fotovoltaico,2021
+Sicilia,Palermo,228.46129,Fotovoltaico,2021
+Emilia-Romagna,Ferrara,224.34679,Fotovoltaico,2021
+Veneto,Belluno,220.98619,Bioenergie,2021
+Emilia-Romagna,Parma,217.46114,Fotovoltaico,2021
+Abruzzo,L'Aquila,216.77267,Fotovoltaico,2021
+Molise,Isernia,215.69876,Eolico,2021
+Sicilia,Trapani,214.74481,Fotovoltaico,2021
+Friuli-Venezia Giulia,Pordenone,208.96118,Bioenergie,2021
+Emilia-Romagna,Piacenza,206.70332,Fotovoltaico,2021
+Sicilia,Enna,204.5399,Eolico,2021
+Lombardia,Pavia,203.08932,Fotovoltaico,2021
+Trentino-Alto Adige,Trento,200.8556,Fotovoltaico,2021
+Marche,Ascoli Piceno,199.42995,Idrico,2021
+Lazio,Frosinone,198.62364,Fotovoltaico,2021
+Toscana,Arezzo,196.4318,Fotovoltaico,2021
+Campania,Napoli,195.96786,Fotovoltaico,2021
+Sardegna,Cagliari,195.67378,Bioenergie,2021
+Molise,Isernia,195.3871,Idrico,2021
+Veneto,Vicenza,194.08011,Bioenergie,2021
+Emilia-Romagna,Reggio Nell'Emilia,191.90115,Fotovoltaico,2021
+Sicilia,Siracusa,190.37646,Eolico,2021
+Friuli-Venezia Giulia,Pordenone,181.74922,Fotovoltaico,2021
+Puglia,Lecce,178.5512,Eolico,2021
+Basilicata,Matera,176.01889,Bioenergie,2021
+Sardegna,Oristano,175.93636,Fotovoltaico,2021
+Molise,Campobasso,172.54015,Fotovoltaico,2021
+Calabria,Catanzaro,170.91267,Fotovoltaico,2021
+Emilia-Romagna,Piacenza,169.9703,Bioenergie,2021
+Marche,Macerata,168.38484,Idrico,2021
+Veneto,Rovigo,168.00732,Bioenergie,2021
+Calabria,Catanzaro,167.05043,Idrico,2021
+Puglia,Barletta-Andria-Trani,165.73381,Eolico,2021
+Toscana,Livorno,160.47095,Bioenergie,2021
+Toscana,Pisa,156.77263,Eolico,2021
+Calabria,Cosenza,156.27463,Eolico,2021
+Sardegna,Nuoro,156.11356,Fotovoltaico,2021
+Piemonte,Novara,155.51317,Idrico,2021
+Lombardia,Varese,154.52548,Fotovoltaico,2021
+Umbria,Terni,153.11815,Fotovoltaico,2021
+Lombardia,Como,148.69458,Idrico,2021
+Abruzzo,L'Aquila,148.14053,Eolico,2021
+Sicilia,Enna,147.7203,Bioenergie,2021
+Marche,Ascoli Piceno,143.89644,Fotovoltaico,2021
+Liguria,Savona,137.51984,Eolico,2021
+Lazio,Viterbo,137.45876,Eolico,2021
+Marche,Fermo,135.50166,Fotovoltaico,2021
+Sicilia,Caltanissetta,134.82648,Eolico,2021
+Puglia,Bari,133.6073,Eolico,2021
+Liguria,Genova,133.24019,Idrico,2021
+Lombardia,Lodi,132.92863,Fotovoltaico,2021
+Umbria,Terni,132.88246,Bioenergie,2021
+Emilia-Romagna,Parma,131.79852,Idrico,2021
+Sicilia,Caltanissetta,130.16835,Fotovoltaico,2021
+Piemonte,Vercelli,130.1105,Idrico,2021
+Emilia-Romagna,Modena,129.89847,Idrico,2021
+Emilia-Romagna,Forlì-Cesena,128.4272,Bioenergie,2021
+Emilia-Romagna,Parma,124.79961,Bioenergie,2021
+Toscana,Firenze,122.27495,Fotovoltaico,2021
+Toscana,Pisa,120.769905,Fotovoltaico,2021
+Veneto,Treviso,117.80832,Bioenergie,2021
+Sardegna,Oristano,115.27729,Eolico,2021
+Lombardia,Monza e della Brianza,113.68924,Fotovoltaico,2021
+Abruzzo,Pescara,112.45485,Fotovoltaico,2021
+Molise,Campobasso,111.0405,Bioenergie,2021
+Piemonte,Alessandria,110.12873,Idrico,2021
+Emilia-Romagna,Reggio Nell'Emilia,109.36,Idrico,2021
+Emilia-Romagna,Rimini,109.033714,Fotovoltaico,2021
+Piemonte,Novara,108.343285,Fotovoltaico,2021
+Piemonte,Novara,108.043785,Bioenergie,2021
+Toscana,Grosseto,106.80824,Fotovoltaico,2021
+Sicilia,Enna,105.22767,Fotovoltaico,2021
+Piemonte,Biella,104.14181,Fotovoltaico,2021
+Emilia-Romagna,Reggio Nell'Emilia,103.24897,Bioenergie,2021
+Piemonte,Vercelli,102.14978,Fotovoltaico,2021
+Lombardia,Como,101.42622,Fotovoltaico,2021
+Puglia,Brindisi,101.02806,Eolico,2021
+Campania,Avellino,98.03538,Fotovoltaico,2021
+Toscana,Massa-Carrara,97.851746,Idrico,2021
+Toscana,Grosseto,97.52317,Bioenergie,2021
+Piemonte,Asti,97.12585,Fotovoltaico,2021
+Toscana,Livorno,96.70343,Fotovoltaico,2021
+Toscana,Pistoia,91.798355,Idrico,2021
+Sardegna,Sassari,89.64785,Idrico,2021
+Lazio,Viterbo,87.23205,Idrico,2021
+Lazio,Roma,86.62366,Bioenergie,2021
+Lazio,Latina,86.04678,Bioenergie,2021
+Lombardia,Lodi,85.982956,Idrico,2021
+Calabria,Reggio Di Calabria,84.62615,Fotovoltaico,2021
+Lombardia,Sondrio,84.43255,Bioenergie,2021
+Umbria,Perugia,83.51136,Bioenergie,2021
+Toscana,Prato,82.98949,Fotovoltaico,2021
+Toscana,Siena,81.41285,Fotovoltaico,2021
+Basilicata,Potenza,79.10829,Bioenergie,2021
+Puglia,Taranto,78.94342,Bioenergie,2021
+Umbria,Perugia,78.1144,Idrico,2021
+Sicilia,Messina,77.78551,Fotovoltaico,2021
+Sicilia,Ragusa,77.27995,Eolico,2021
+Toscana,Lucca,76.75237,Fotovoltaico,2021
+Toscana,Siena,76.38618,Bioenergie,2021
+Emilia-Romagna,Rimini,76.31824,Bioenergie,2021
+Toscana,Arezzo,75.54649,Idrico,2021
+Campania,Benevento,75.07129,Fotovoltaico,2021
+Piemonte,Biella,71.12837,Idrico,2021
+Lombardia,Pavia,70.18715,Idrico,2021
+Campania,Salerno,68.32405,Bioenergie,2021
+Marche,Pesaro E Urbino,67.32382,Idrico,2021
+Toscana,Pisa,66.4747,Bioenergie,2021
+Emilia-Romagna,Forlì-Cesena,66.398575,Idrico,2021
+Emilia-Romagna,Bologna,62.64178,Idrico,2021
+Trentino-Alto Adige,Trento,62.348366,Bioenergie,2021
+Lombardia,Lecco,61.09913,Idrico,2021
+Lombardia,Como,58.31231,Bioenergie,2021
+Sicilia,Catania,55.5578,Idrico,2021
+Lombardia,Sondrio,55.417538,Fotovoltaico,2021
+Sardegna,Oristano,55.360237,Idrico,2021
+Marche,Ancona,54.350964,Bioenergie,2021
+Toscana,Arezzo,54.1656,Bioenergie,2021
+Lombardia,Lecco,53.621815,Fotovoltaico,2021
+Lazio,Viterbo,53.45588,Bioenergie,2021
+Calabria,Reggio Di Calabria,53.34819,Eolico,2021
+Friuli-Venezia Giulia,Gorizia,51.917294,Idrico,2021
+Lombardia,Varese,51.12567,Bioenergie,2021
+Emilia-Romagna,Parma,50.800774,Eolico,2021
+Veneto,Belluno,50.65267,Fotovoltaico,2021
+Molise,Campobasso,49.842087,Idrico,2021
+Molise,Isernia,49.796413,Bioenergie,2021
+Lombardia,Cremona,49.204777,Idrico,2021
+Sardegna,Cagliari,49.01669,Eolico,2021
+Calabria,Vibo Valentia,48.869717,Fotovoltaico,2021
+Molise,Isernia,48.719704,Fotovoltaico,2021
+Sardegna,Sud Sardegna,48.57179,Bioenergie,2021
+Lombardia,Lecco,46.93026,Bioenergie,2021
+Marche,Pesaro E Urbino,46.608227,Bioenergie,2021
+Toscana,Pistoia,46.591698,Fotovoltaico,2021
+Calabria,Reggio Di Calabria,46.400253,Idrico,2021
+Calabria,Crotone,46.360172,Fotovoltaico,2021
+Toscana,Livorno,45.47989,Eolico,2021
+Abruzzo,Pescara,45.23608,Bioenergie,2021
+Piemonte,Biella,45.099705,Bioenergie,2021
+Campania,Caserta,43.926323,Bioenergie,2021
+Friuli-Venezia Giulia,Gorizia,43.82798,Fotovoltaico,2021
+Calabria,Reggio Di Calabria,43.740128,Bioenergie,2021
+Friuli-Venezia Giulia,Trieste,40.51082,Bioenergie,2021
+Sardegna,Sassari,39.604748,Bioenergie,2021
+Campania,Avellino,37.57886,Bioenergie,2021
+Sicilia,Catania,37.455566,Bioenergie,2021
+Sicilia,Palermo,35.72027,Bioenergie,2021
+Sardegna,Sud Sardegna,35.39358,Idrico,2021
+Toscana,Firenze,34.87179,Bioenergie,2021
+Toscana,Grosseto,33.911663,Eolico,2021
+Liguria,Savona,33.78118,Fotovoltaico,2021
+Abruzzo,L'Aquila,32.78931,Bioenergie,2021
+Liguria,Imperia,32.592808,Fotovoltaico,2021
+Campania,Avellino,31.54047,Idrico,2021
+Emilia-Romagna,Bologna,30.75556,Eolico,2021
+Friuli-Venezia Giulia,Trieste,30.463936,Fotovoltaico,2021
+Lazio,Rieti,30.320856,Fotovoltaico,2021
+Liguria,Genova,29.179663,Fotovoltaico,2021
+Toscana,Firenze,29.113289,Eolico,2021
+Lombardia,Mantova,28.860327,Idrico,2021
+Marche,Pesaro E Urbino,28.375515,Eolico,2021
+Valle d'Aosta,Aosta,27.917957,Fotovoltaico,2021
+Piemonte,Cuneo,27.91405,Eolico,2021
+Toscana,Pistoia,27.165688,Bioenergie,2021
+Liguria,La Spezia,26.215822,Fotovoltaico,2021
+Veneto,Padova,25.105038,Idrico,2021
+Toscana,Massa-Carrara,24.15543,Fotovoltaico,2021
+Marche,Ancona,23.660595,Idrico,2021
+Abruzzo,Chieti,23.543957,Bioenergie,2021
+Lazio,Rieti,23.130873,Bioenergie,2021
+Veneto,Verona,22.600557,Eolico,2021
+Marche,Fermo,22.067453,Bioenergie,2021
+Piemonte,Asti,20.716747,Bioenergie,2021
+Puglia,Lecce,20.624033,Bioenergie,2021
+Lombardia,Monza e della Brianza,20.47847,Bioenergie,2021
+Liguria,Savona,19.038773,Idrico,2021
+Piemonte,Verbano-Cusio-Ossola,18.434296,Fotovoltaico,2021
+Campania,Caserta,17.569122,Eolico,2021
+Liguria,Savona,17.303211,Bioenergie,2021
+Marche,Fermo,16.83426,Idrico,2021
+Marche,Macerata,16.715439,Bioenergie,2021
+Sardegna,Oristano,16.588364,Bioenergie,2021
+Toscana,Massa-Carrara,16.33656,Eolico,2021
+Liguria,La Spezia,15.413663,Idrico,2021
+Piemonte,Asti,14.642034,Idrico,2021
+Lazio,Frosinone,14.092992,Eolico,2021
+Abruzzo,Teramo,12.957625,Bioenergie,2021
+Sicilia,Enna,11.948569,Idrico,2021
+Sicilia,Agrigento,11.450529,Idrico,2021
+Valle d'Aosta,Aosta,10.680703,Bioenergie,2021
+Sicilia,Palermo,10.639673,Idrico,2021
+Abruzzo,Pescara,10.104418,Eolico,2021
+Calabria,Vibo Valentia,10.074344,Idrico,2021
+Toscana,Prato,9.952074,Idrico,2021
+Calabria,Catanzaro,9.836926,Bioenergie,2021
+Marche,Macerata,9.341898,Eolico,2021
+Sicilia,Siracusa,9.041349,Idrico,2021
+Puglia,Barletta-Andria-Trani,8.87242,Bioenergie,2021
+Sicilia,Caltanissetta,8.760319,Bioenergie,2021
+Liguria,Genova,8.420832,Eolico,2021
+Sardegna,Cagliari,8.221771,Idrico,2021
+Sicilia,Agrigento,8.055903,Bioenergie,2021
+Toscana,Firenze,7.3888288,Idrico,2021
+Calabria,Vibo Valentia,6.991472,Bioenergie,2021
+Veneto,Venezia,6.377807,Idrico,2021
+Liguria,Genova,6.253127,Bioenergie,2021
+Emilia-Romagna,Rimini,5.983817,Idrico,2021
+Liguria,Imperia,5.6237607,Idrico,2021
+Sicilia,Ragusa,5.419902,Bioenergie,2021
+Toscana,Arezzo,5.361535,Eolico,2021
+Sicilia,Messina,4.939512,Idrico,2021
+Toscana,Siena,4.735629,Idrico,2021
+Liguria,Imperia,4.680112,Eolico,2021
+Puglia,Barletta-Andria-Trani,4.617095,Idrico,2021
+Valle d'Aosta,Aosta,4.183192,Eolico,2021
+Piemonte,Verbano-Cusio-Ossola,4.0140495,Bioenergie,2021
+Veneto,Rovigo,3.974217,Idrico,2021
+Campania,Benevento,3.9147663,Idrico,2021
+Liguria,La Spezia,3.689719,Eolico,2021
+Marche,Ascoli Piceno,3.548814,Bioenergie,2021
+Liguria,Imperia,3.085055,Bioenergie,2021
+Toscana,Grosseto,2.928261,Idrico,2021
+Puglia,Taranto,2.48176,Idrico,2021
+Umbria,Perugia,2.3643253,Eolico,2021
+Campania,Benevento,2.2736692,Bioenergie,2021
+Emilia-Romagna,Ravenna,1.9518865,Idrico,2021
+Sicilia,Siracusa,1.493801,Bioenergie,2021
+Puglia,Bari,1.463217,Idrico,2021
+Calabria,Vibo Valentia,1.3982729,Eolico,2021
+Emilia-Romagna,Ferrara,1.292242,Idrico,2021
+Lazio,Latina,1.2589382,Idrico,2021
+Puglia,Brindisi,1.194861,Idrico,2021
+Toscana,Massa-Carrara,1.087489,Bioenergie,2021
+Basilicata,Matera,0.885811,Idrico,2021
+Emilia-Romagna,Piacenza,0.708961,Eolico,2021
+Toscana,Pisa,0.65712625,Idrico,2021
+Emilia-Romagna,Rimini,0.5832197,Eolico,2021
+Sicilia,Caltanissetta,0.190575,Idrico,2021
+Emilia-Romagna,Modena,0.15656096,Eolico,2021
+Emilia-Romagna,Forlì-Cesena,0.14460246,Eolico,2021
+Toscana,Lucca,0.12522876,Bioenergie,2021
+Piemonte,Torino,0.07840816,Eolico,2021
+Marche,Ancona,0.0782041,Eolico,2021
+Toscana,Prato,0.05952679,Bioenergie,2021
+Trentino-Alto Adige,Bolzano/Bozen,0.040468,Eolico,2021
+Emilia-Romagna,Ravenna,0.009446,Eolico,2021
+Toscana,Pistoia,0.00560191,Eolico,2021
+Lombardia,Varese,0.00451839,Eolico,2021
+Umbria,Terni,0.00382508,Eolico,2021
+Piemonte,Biella,0.00281604,Eolico,2021
+Marche,Fermo,0.00168542,Eolico,2021
+Emilia-Romagna,Reggio Nell'Emilia,0.00125626,Eolico,2021
+Sicilia,Trapani,0.0006,Idrico,2021
+Lombardia,Milano,0.00046432,Eolico,2021
+Lombardia,Brescia,0.00026734,Eolico,2021
+Abruzzo,Chieti,0.0,Geotermoelettrico,2021
+Abruzzo,L'Aquila,0.0,Geotermoelettrico,2021
+Abruzzo,Pescara,0.0,Geotermoelettrico,2021
+Abruzzo,Teramo,0.0,Eolico,2021
+Abruzzo,Teramo,0.0,Geotermoelettrico,2021
+Basilicata,Matera,0.0,Geotermoelettrico,2021
+Basilicata,Potenza,0.0,Geotermoelettrico,2021
+Calabria,Catanzaro,0.0,Geotermoelettrico,2021
+Calabria,Cosenza,0.0,Geotermoelettrico,2021
+Calabria,Crotone,0.0,Geotermoelettrico,2021
+Calabria,Reggio Di Calabria,0.0,Geotermoelettrico,2021
+Calabria,Vibo Valentia,0.0,Geotermoelettrico,2021
+Campania,Avellino,0.0,Geotermoelettrico,2021
+Campania,Benevento,0.0,Geotermoelettrico,2021
+Campania,Caserta,0.0,Geotermoelettrico,2021
+Campania,Napoli,0.0,Eolico,2021
+Campania,Napoli,0.0,Geotermoelettrico,2021
+Campania,Napoli,0.0,Idrico,2021
+Campania,Salerno,0.0,Geotermoelettrico,2021
+Emilia-Romagna,Bologna,0.0,Geotermoelettrico,2021
+Emilia-Romagna,Ferrara,0.0,Eolico,2021
+Emilia-Romagna,Ferrara,0.0,Geotermoelettrico,2021
+Emilia-Romagna,Forlì-Cesena,0.0,Geotermoelettrico,2021
+Emilia-Romagna,Modena,0.0,Geotermoelettrico,2021
+Emilia-Romagna,Parma,0.0,Geotermoelettrico,2021
+Emilia-Romagna,Piacenza,0.0,Geotermoelettrico,2021
+Emilia-Romagna,Ravenna,0.0,Geotermoelettrico,2021
+Emilia-Romagna,Reggio Nell'Emilia,0.0,Geotermoelettrico,2021
+Emilia-Romagna,Rimini,0.0,Geotermoelettrico,2021
+Friuli-Venezia Giulia,Gorizia,0.0,Eolico,2021
+Friuli-Venezia Giulia,Gorizia,0.0,Geotermoelettrico,2021
+Friuli-Venezia Giulia,Pordenone,0.0,Eolico,2021
+Friuli-Venezia Giulia,Pordenone,0.0,Geotermoelettrico,2021
+Friuli-Venezia Giulia,Trieste,0.0,Eolico,2021
+Friuli-Venezia Giulia,Trieste,0.0,Geotermoelettrico,2021
+Friuli-Venezia Giulia,Trieste,0.0,Idrico,2021
+Friuli-Venezia Giulia,Udine,0.0,Eolico,2021
+Friuli-Venezia Giulia,Udine,0.0,Geotermoelettrico,2021
+Lazio,Frosinone,0.0,Geotermoelettrico,2021
+Lazio,Latina,0.0,Eolico,2021
+Lazio,Latina,0.0,Geotermoelettrico,2021
+Lazio,Rieti,0.0,Eolico,2021
+Lazio,Rieti,0.0,Geotermoelettrico,2021
+Lazio,Roma,0.0,Eolico,2021
+Lazio,Roma,0.0,Geotermoelettrico,2021
+Lazio,Viterbo,0.0,Geotermoelettrico,2021
+Liguria,Genova,0.0,Geotermoelettrico,2021
+Liguria,Imperia,0.0,Geotermoelettrico,2021
+Liguria,La Spezia,0.0,Bioenergie,2021
+Liguria,La Spezia,0.0,Geotermoelettrico,2021
+Liguria,Savona,0.0,Geotermoelettrico,2021
+Lombardia,Bergamo,0.0,Eolico,2021
+Lombardia,Bergamo,0.0,Geotermoelettrico,2021
+Lombardia,Brescia,0.0,Geotermoelettrico,2021
+Lombardia,Como,0.0,Eolico,2021
+Lombardia,Como,0.0,Geotermoelettrico,2021
+Lombardia,Cremona,0.0,Eolico,2021
+Lombardia,Cremona,0.0,Geotermoelettrico,2021
+Lombardia,Lecco,0.0,Eolico,2021
+Lombardia,Lecco,0.0,Geotermoelettrico,2021
+Lombardia,Lodi,0.0,Eolico,2021
+Lombardia,Lodi,0.0,Geotermoelettrico,2021
+Lombardia,Mantova,0.0,Eolico,2021
+Lombardia,Mantova,0.0,Geotermoelettrico,2021
+Lombardia,Milano,0.0,Geotermoelettrico,2021
+Lombardia,Monza e della Brianza,0.0,Eolico,2021
+Lombardia,Monza e della Brianza,0.0,Geotermoelettrico,2021
+Lombardia,Pavia,0.0,Eolico,2021
+Lombardia,Pavia,0.0,Geotermoelettrico,2021
+Lombardia,Sondrio,0.0,Eolico,2021
+Lombardia,Sondrio,0.0,Geotermoelettrico,2021
+Lombardia,Varese,0.0,Geotermoelettrico,2021
+Marche,Ancona,0.0,Geotermoelettrico,2021
+Marche,Ascoli Piceno,0.0,Eolico,2021
+Marche,Ascoli Piceno,0.0,Geotermoelettrico,2021
+Marche,Fermo,0.0,Geotermoelettrico,2021
+Marche,Macerata,0.0,Geotermoelettrico,2021
+Marche,Pesaro E Urbino,0.0,Geotermoelettrico,2021
+Molise,Campobasso,0.0,Geotermoelettrico,2021
+Molise,Isernia,0.0,Geotermoelettrico,2021
+Piemonte,Alessandria,0.0,Eolico,2021
+Piemonte,Alessandria,0.0,Geotermoelettrico,2021
+Piemonte,Asti,0.0,Eolico,2021
+Piemonte,Asti,0.0,Geotermoelettrico,2021
+Piemonte,Biella,0.0,Geotermoelettrico,2021
+Piemonte,Cuneo,0.0,Geotermoelettrico,2021
+Piemonte,Novara,0.0,Eolico,2021
+Piemonte,Novara,0.0,Geotermoelettrico,2021
+Piemonte,Torino,0.0,Geotermoelettrico,2021
+Piemonte,Verbano-Cusio-Ossola,0.0,Eolico,2021
+Piemonte,Verbano-Cusio-Ossola,0.0,Geotermoelettrico,2021
+Piemonte,Vercelli,0.0,Eolico,2021
+Piemonte,Vercelli,0.0,Geotermoelettrico,2021
+Puglia,Bari,0.0,Geotermoelettrico,2021
+Puglia,Barletta-Andria-Trani,0.0,Geotermoelettrico,2021
+Puglia,Brindisi,0.0,Geotermoelettrico,2021
+Puglia,Foggia,0.0,Geotermoelettrico,2021
+Puglia,Foggia,0.0,Idrico,2021
+Puglia,Lecce,0.0,Geotermoelettrico,2021
+Puglia,Lecce,0.0,Idrico,2021
+Puglia,Taranto,0.0,Geotermoelettrico,2021
+Sardegna,Cagliari,0.0,Geotermoelettrico,2021
+Sardegna,Nuoro,0.0,Geotermoelettrico,2021
+Sardegna,Oristano,0.0,Geotermoelettrico,2021
+Sardegna,Sassari,0.0,Geotermoelettrico,2021
+Sardegna,Sud Sardegna,0.0,Geotermoelettrico,2021
+Sicilia,Agrigento,0.0,Geotermoelettrico,2021
+Sicilia,Caltanissetta,0.0,Geotermoelettrico,2021
+Sicilia,Catania,0.0,Geotermoelettrico,2021
+Sicilia,Enna,0.0,Geotermoelettrico,2021
+Sicilia,Messina,0.0,Bioenergie,2021
+Sicilia,Messina,0.0,Geotermoelettrico,2021
+Sicilia,Palermo,0.0,Geotermoelettrico,2021
+Sicilia,Ragusa,0.0,Geotermoelettrico,2021
+Sicilia,Ragusa,0.0,Idrico,2021
+Sicilia,Siracusa,0.0,Geotermoelettrico,2021
+Sicilia,Trapani,0.0,Bioenergie,2021
+Sicilia,Trapani,0.0,Geotermoelettrico,2021
+Toscana,Arezzo,0.0,Geotermoelettrico,2021
+Toscana,Firenze,0.0,Geotermoelettrico,2021
+Toscana,Livorno,0.0,Geotermoelettrico,2021
+Toscana,Livorno,0.0,Idrico,2021
+Toscana,Lucca,0.0,Eolico,2021
+Toscana,Lucca,0.0,Geotermoelettrico,2021
+Toscana,Massa-Carrara,0.0,Geotermoelettrico,2021
+Toscana,Pistoia,0.0,Geotermoelettrico,2021
+Toscana,Prato,0.0,Eolico,2021
+Toscana,Prato,0.0,Geotermoelettrico,2021
+Toscana,Siena,0.0,Eolico,2021
+Trentino-Alto Adige,Bolzano/Bozen,0.0,Geotermoelettrico,2021
+Trentino-Alto Adige,Trento,0.0,Eolico,2021
+Trentino-Alto Adige,Trento,0.0,Geotermoelettrico,2021
+Umbria,Perugia,0.0,Geotermoelettrico,2021
+Umbria,Terni,0.0,Geotermoelettrico,2021
+Valle d'Aosta,Aosta,0.0,Geotermoelettrico,2021
+Veneto,Belluno,0.0,Eolico,2021
+Veneto,Belluno,0.0,Geotermoelettrico,2021
+Veneto,Padova,0.0,Eolico,2021
+Veneto,Padova,0.0,Geotermoelettrico,2021
+Veneto,Rovigo,0.0,Eolico,2021
+Veneto,Rovigo,0.0,Geotermoelettrico,2021
+Veneto,Treviso,0.0,Eolico,2021
+Veneto,Treviso,0.0,Geotermoelettrico,2021
+Veneto,Venezia,0.0,Eolico,2021
+Veneto,Venezia,0.0,Geotermoelettrico,2021
+Veneto,Verona,0.0,Geotermoelettrico,2021
+Veneto,Vicenza,0.0,Eolico,2021
+Veneto,Vicenza,0.0,Geotermoelettrico,2021
+Puglia,Foggia,4376.7,Eolico,2022
+Trentino-Alto Adige,Bolzano/Bozen,4227.8,Idrico,2022
+Lombardia,Sondrio,3427.4,Idrico,2022
+Toscana,Pisa,2997.3,Geotermoelettrico,2022
+Valle d'Aosta,Aosta,2421.8,Idrico,2022
+Basilicata,Potenza,2208.5,Eolico,2022
+Trentino-Alto Adige,Trento,2088.7,Idrico,2022
+Campania,Benevento,1600.4,Eolico,2022
+Piemonte,Torino,1538.6,Idrico,2022
+Toscana,Grosseto,1450.3,Geotermoelettrico,2022
+Campania,Avellino,1396.7,Eolico,2022
+Toscana,Siena,1389.3,Geotermoelettrico,2022
+Lombardia,Brescia,1369.5,Idrico,2022
+Piemonte,Verbano-Cusio-Ossola,1368.0,Idrico,2022
+Calabria,Catanzaro,1228.8,Eolico,2022
+Veneto,Belluno,1142.8,Idrico,2022
+Emilia-Romagna,Ravenna,1108.8115,Bioenergie,2022
+Puglia,Lecce,1040.1,Fotovoltaico,2022
+Umbria,Terni,967.2,Idrico,2022
+Campania,Napoli,942.3,Bioenergie,2022
+Sicilia,Trapani,938.7,Eolico,2022
+Sardegna,Sassari,900.7,Eolico,2022
+Puglia,Foggia,884.9,Fotovoltaico,2022
+Lombardia,Cremona,843.5,Bioenergie,2022
+Lazio,Viterbo,827.1,Fotovoltaico,2022
+Piemonte,Torino,780.5,Bioenergie,2022
+Calabria,Crotone,773.2,Eolico,2022
+Lombardia,Brescia,765.8,Bioenergie,2022
+Puglia,Brindisi,761.6,Fotovoltaico,2022
+Calabria,Crotone,750.87494,Bioenergie,2022
+Sicilia,Palermo,723.7,Eolico,2022
+Puglia,Bari,716.6,Fotovoltaico,2022
+Piemonte,Cuneo,696.7,Fotovoltaico,2022
+Lombardia,Pavia,661.1,Bioenergie,2022
+Veneto,Verona,653.1,Idrico,2022
+Puglia,Bari,640.64136,Bioenergie,2022
+Lazio,Roma,619.8,Fotovoltaico,2022
+Lombardia,Brescia,617.3,Fotovoltaico,2022
+Basilicata,Matera,606.0,Eolico,2022
+Lombardia,Bergamo,596.2,Idrico,2022
+Friuli-Venezia Giulia,Udine,559.6,Idrico,2022
+Piemonte,Torino,556.5,Fotovoltaico,2022
+Puglia,Taranto,536.3,Fotovoltaico,2022
+Emilia-Romagna,Ferrara,517.2243,Bioenergie,2022
+Piemonte,Cuneo,516.1,Idrico,2022
+Emilia-Romagna,Ravenna,514.0,Fotovoltaico,2022
+Veneto,Treviso,513.7,Idrico,2022
+Veneto,Venezia,498.1911,Bioenergie,2022
+Lombardia,Mantova,489.6,Bioenergie,2022
+Calabria,Cosenza,476.87466,Bioenergie,2022
+Veneto,Verona,469.4,Fotovoltaico,2022
+Veneto,Treviso,460.4,Fotovoltaico,2022
+Molise,Campobasso,456.7,Eolico,2022
+Veneto,Padova,453.7,Fotovoltaico,2022
+Lombardia,Lodi,453.6,Bioenergie,2022
+Calabria,Cosenza,443.7,Idrico,2022
+Sicilia,Agrigento,437.6,Eolico,2022
+Lombardia,Milano,437.3,Fotovoltaico,2022
+Umbria,Perugia,432.2,Fotovoltaico,2022
+Emilia-Romagna,Bologna,424.2,Fotovoltaico,2022
+Sardegna,Cagliari,423.8,Fotovoltaico,2022
+Veneto,Rovigo,416.8,Fotovoltaico,2022
+Lombardia,Bergamo,414.3,Fotovoltaico,2022
+Marche,Macerata,409.7,Fotovoltaico,2022
+Veneto,Vicenza,408.1,Fotovoltaico,2022
+Friuli-Venezia Giulia,Udine,392.1,Fotovoltaico,2022
+Campania,Salerno,390.4,Eolico,2022
+Marche,Ancona,389.4,Fotovoltaico,2022
+Puglia,Taranto,385.7,Eolico,2022
+Lazio,Frosinone,378.99197,Bioenergie,2022
+Veneto,Padova,376.59702,Bioenergie,2022
+Sardegna,Sud Sardegna,371.9,Eolico,2022
+Lazio,Latina,371.5,Fotovoltaico,2022
+Abruzzo,Chieti,366.9,Idrico,2022
+Piemonte,Alessandria,356.7,Fotovoltaico,2022
+Sicilia,Catania,352.2,Fotovoltaico,2022
+Lombardia,Milano,349.7,Bioenergie,2022
+Piemonte,Cuneo,346.1,Bioenergie,2022
+Calabria,Cosenza,341.0,Fotovoltaico,2022
+Campania,Salerno,339.1,Fotovoltaico,2022
+Emilia-Romagna,Modena,337.4,Fotovoltaico,2022
+Sicilia,Catania,336.6,Eolico,2022
+Marche,Pesaro E Urbino,328.1,Fotovoltaico,2022
+Sicilia,Ragusa,325.5,Fotovoltaico,2022
+Emilia-Romagna,Bologna,324.61603,Bioenergie,2022
+Puglia,Foggia,323.70312,Bioenergie,2022
+Campania,Caserta,323.2,Fotovoltaico,2022
+Sicilia,Agrigento,319.4,Fotovoltaico,2022
+Abruzzo,Chieti,313.9,Fotovoltaico,2022
+Abruzzo,Teramo,313.6,Fotovoltaico,2022
+Abruzzo,Pescara,306.3,Idrico,2022
+Veneto,Verona,305.87924,Bioenergie,2022
+Friuli-Venezia Giulia,Gorizia,304.5,Bioenergie,2022
+Trentino-Alto Adige,Bolzano/Bozen,304.3,Fotovoltaico,2022
+Emilia-Romagna,Forlì-Cesena,299.2,Fotovoltaico,2022
+Sardegna,Sassari,298.1,Fotovoltaico,2022
+Abruzzo,Chieti,290.1,Eolico,2022
+Basilicata,Potenza,289.1,Idrico,2022
+Sicilia,Siracusa,289.1,Fotovoltaico,2022
+Lombardia,Mantova,287.3,Fotovoltaico,2022
+Emilia-Romagna,Modena,287.0948,Bioenergie,2022
+Sicilia,Trapani,285.1,Fotovoltaico,2022
+Lombardia,Cremona,279.8,Fotovoltaico,2022
+Friuli-Venezia Giulia,Pordenone,279.4,Idrico,2022
+Veneto,Venezia,269.1,Fotovoltaico,2022
+Basilicata,Potenza,266.5,Fotovoltaico,2022
+Sardegna,Sud Sardegna,265.6,Fotovoltaico,2022
+Basilicata,Matera,264.3,Fotovoltaico,2022
+Piemonte,Alessandria,264.2,Bioenergie,2022
+Sicilia,Palermo,260.5,Fotovoltaico,2022
+Puglia,Barletta-Andria-Trani,250.9,Fotovoltaico,2022
+Sardegna,Nuoro,246.0,Bioenergie,2022
+Lazio,Roma,243.4,Idrico,2022
+Emilia-Romagna,Ferrara,242.9,Fotovoltaico,2022
+Sicilia,Messina,242.5,Eolico,2022
+Abruzzo,L'Aquila,236.2,Fotovoltaico,2022
+Lombardia,Bergamo,234.7,Bioenergie,2022
+Abruzzo,Teramo,234.2,Idrico,2022
+Calabria,Crotone,232.5,Idrico,2022
+Sardegna,Nuoro,231.4,Eolico,2022
+Campania,Salerno,230.6,Idrico,2022
+Emilia-Romagna,Parma,230.4,Fotovoltaico,2022
+Lazio,Frosinone,230.0,Idrico,2022
+Trentino-Alto Adige,Trento,229.9,Fotovoltaico,2022
+Campania,Napoli,229.3,Fotovoltaico,2022
+Lazio,Frosinone,227.8,Fotovoltaico,2022
+Lombardia,Pavia,227.5,Fotovoltaico,2022
+Campania,Caserta,227.4,Idrico,2022
+Puglia,Brindisi,227.02412,Bioenergie,2022
+Friuli-Venezia Giulia,Udine,226.6,Bioenergie,2022
+Piemonte,Vercelli,226.4,Bioenergie,2022
+Emilia-Romagna,Piacenza,225.7,Fotovoltaico,2022
+Veneto,Belluno,224.25192,Bioenergie,2022
+Emilia-Romagna,Reggio Nell'Emilia,221.1,Fotovoltaico,2022
+Toscana,Arezzo,220.9,Fotovoltaico,2022
+Sardegna,Cagliari,219.5,Bioenergie,2022
+Trentino-Alto Adige,Bolzano/Bozen,218.82283,Bioenergie,2022
+Lazio,Rieti,209.8,Idrico,2022
+Toscana,Lucca,209.7,Idrico,2022
+Emilia-Romagna,Piacenza,209.0,Idrico,2022
+Friuli-Venezia Giulia,Pordenone,208.9,Fotovoltaico,2022
+Lombardia,Varese,207.9,Idrico,2022
+Abruzzo,L'Aquila,202.9,Idrico,2022
+Calabria,Catanzaro,196.4,Fotovoltaico,2022
+Sicilia,Enna,189.7,Eolico,2022
+Sardegna,Oristano,189.3,Fotovoltaico,2022
+Lombardia,Varese,188.6,Fotovoltaico,2022
+Liguria,Savona,187.3,Eolico,2022
+Puglia,Lecce,185.1,Eolico,2022
+Molise,Campobasso,184.1,Fotovoltaico,2022
+Basilicata,Matera,181.3,Bioenergie,2022
+Molise,Isernia,180.7,Eolico,2022
+Sardegna,Nuoro,180.5,Fotovoltaico,2022
+Veneto,Vicenza,170.6,Idrico,2022
+Umbria,Terni,169.5,Fotovoltaico,2022
+Emilia-Romagna,Piacenza,169.37056,Bioenergie,2022
+Sardegna,Nuoro,167.5,Idrico,2022
+Sicilia,Siracusa,165.3,Eolico,2022
+Puglia,Barletta-Andria-Trani,164.3,Eolico,2022
+Veneto,Rovigo,159.25574,Bioenergie,2022
+Marche,Ascoli Piceno,159.1,Fotovoltaico,2022
+Friuli-Venezia Giulia,Pordenone,158.2,Bioenergie,2022
+Lombardia,Milano,154.5,Idrico,2022
+Marche,Fermo,146.2,Fotovoltaico,2022
+Sicilia,Caltanissetta,142.9,Fotovoltaico,2022
+Lombardia,Lodi,142.7,Fotovoltaico,2022
+Puglia,Bari,142.4,Eolico,2022
+Marche,Ascoli Piceno,141.5,Idrico,2022
+Piemonte,Novara,141.3,Fotovoltaico,2022
+Sicilia,Enna,141.0,Bioenergie,2022
+Lombardia,Monza e della Brianza,139.6,Fotovoltaico,2022
+Calabria,Cosenza,138.4,Eolico,2022
+Abruzzo,L'Aquila,138.3,Eolico,2022
+Toscana,Firenze,137.0,Fotovoltaico,2022
+Molise,Isernia,136.9,Idrico,2022
+Toscana,Pisa,135.5,Eolico,2022
+Toscana,Pisa,134.3,Fotovoltaico,2022
+Lombardia,Monza e della Brianza,130.9,Idrico,2022
+Calabria,Catanzaro,128.1,Idrico,2022
+Veneto,Vicenza,126.78975,Bioenergie,2022
+Lazio,Viterbo,124.4,Eolico,2022
+Lombardia,Como,124.3,Fotovoltaico,2022
+Sicilia,Caltanissetta,123.5,Eolico,2022
+Marche,Macerata,122.9,Idrico,2022
+Abruzzo,Pescara,122.3,Fotovoltaico,2022
+Emilia-Romagna,Rimini,120.7,Fotovoltaico,2022
+Umbria,Terni,119.11785,Bioenergie,2022
+Piemonte,Biella,116.7,Fotovoltaico,2022
+Campania,Avellino,114.5,Fotovoltaico,2022
+Toscana,Grosseto,112.3,Fotovoltaico,2022
+Sicilia,Enna,112.2,Fotovoltaico,2022
+Emilia-Romagna,Parma,111.4,Bioenergie,2022
+Emilia-Romagna,Forlì-Cesena,109.8828,Bioenergie,2022
+Piemonte,Vercelli,109.1,Fotovoltaico,2022
+Veneto,Treviso,108.7087,Bioenergie,2022
+Puglia,Brindisi,107.1,Eolico,2022
+Piemonte,Asti,106.7,Fotovoltaico,2022
+Sardegna,Oristano,105.0,Eolico,2022
+Toscana,Livorno,104.8,Fotovoltaico,2022
+Piemonte,Novara,104.2,Bioenergie,2022
+Lazio,Roma,102.261635,Bioenergie,2022
+Piemonte,Novara,101.1,Idrico,2022
+Sicilia,Catania,98.0,Idrico,2022
+Piemonte,Vercelli,97.8,Idrico,2022
+Calabria,Reggio Di Calabria,96.7,Fotovoltaico,2022
+Emilia-Romagna,Reggio Nell'Emilia,93.21175,Bioenergie,2022
+Toscana,Lucca,92.9,Fotovoltaico,2022
+Toscana,Siena,91.2,Fotovoltaico,2022
+Toscana,Prato,89.4,Fotovoltaico,2022
+Sicilia,Messina,87.5,Fotovoltaico,2022
+Molise,Campobasso,86.1,Bioenergie,2022
+Toscana,Grosseto,85.69979,Bioenergie,2022
+Campania,Benevento,83.5,Fotovoltaico,2022
+Lombardia,Sondrio,79.6,Bioenergie,2022
+Lombardia,Como,76.5,Idrico,2022
+Lazio,Latina,75.24811,Bioenergie,2022
+Puglia,Taranto,72.63558,Bioenergie,2022
+Toscana,Siena,71.77714,Bioenergie,2022
+Sicilia,Ragusa,70.9,Eolico,2022
+Emilia-Romagna,Rimini,69.261345,Bioenergie,2022
+Lazio,Viterbo,69.1,Idrico,2022
+Emilia-Romagna,Parma,68.2,Idrico,2022
+Liguria,Genova,67.3,Idrico,2022
+Lombardia,Lecco,63.7,Fotovoltaico,2022
+Umbria,Perugia,63.7,Idrico,2022
+Lombardia,Varese,63.1,Bioenergie,2022
+Marche,Pesaro E Urbino,62.6,Idrico,2022
+Lombardia,Sondrio,61.4,Fotovoltaico,2022
+Veneto,Belluno,61.4,Fotovoltaico,2022
+Umbria,Perugia,60.09396,Bioenergie,2022
+Emilia-Romagna,Modena,57.9,Idrico,2022
+Toscana,Pisa,57.111984,Bioenergie,2022
+Calabria,Vibo Valentia,55.8,Fotovoltaico,2022
+Calabria,Crotone,54.9,Fotovoltaico,2022
+Toscana,Arezzo,54.0,Bioenergie,2022
+Toscana,Pistoia,54.0,Fotovoltaico,2022
+Calabria,Reggio Di Calabria,52.6,Eolico,2022
+Basilicata,Potenza,51.9,Bioenergie,2022
+Toscana,Pistoia,51.7,Idrico,2022
+Lombardia,Como,51.4,Bioenergie,2022
+Sardegna,Cagliari,51.0,Eolico,2022
+Sardegna,Sud Sardegna,50.7,Bioenergie,2022
+Emilia-Romagna,Parma,50.4,Eolico,2022
+Toscana,Livorno,50.27644,Bioenergie,2022
+Molise,Isernia,50.0,Fotovoltaico,2022
+Emilia-Romagna,Forlì-Cesena,49.8,Idrico,2022
+Sardegna,Sassari,49.6,Idrico,2022
+Trentino-Alto Adige,Trento,49.30233,Bioenergie,2022
+Molise,Isernia,49.1,Bioenergie,2022
+Friuli-Venezia Giulia,Trieste,48.6,Bioenergie,2022
+Friuli-Venezia Giulia,Gorizia,48.1,Fotovoltaico,2022
+Marche,Ancona,47.362446,Bioenergie,2022
+Piemonte,Alessandria,47.0,Idrico,2022
+Emilia-Romagna,Reggio Nell'Emilia,46.5,Idrico,2022
+Marche,Pesaro E Urbino,45.33901,Bioenergie,2022
+Calabria,Reggio Di Calabria,45.3,Idrico,2022
+Lombardia,Lecco,44.9,Bioenergie,2022
+Lombardia,Lodi,44.5,Idrico,2022
+Molise,Campobasso,44.5,Idrico,2022
+Campania,Salerno,43.0,Bioenergie,2022
+Lazio,Viterbo,42.933826,Bioenergie,2022
+Toscana,Massa-Carrara,41.3,Idrico,2022
+Calabria,Reggio Di Calabria,40.09803,Bioenergie,2022
+Lombardia,Pavia,40.0,Idrico,2022
+Friuli-Venezia Giulia,Gorizia,39.9,Idrico,2022
+Toscana,Arezzo,39.2,Idrico,2022
+Liguria,Savona,38.3,Fotovoltaico,2022
+Piemonte,Biella,37.9,Bioenergie,2022
+Liguria,Imperia,36.4,Fotovoltaico,2022
+Lazio,Rieti,36.3,Fotovoltaico,2022
+Liguria,Genova,36.2,Fotovoltaico,2022
+Sicilia,Enna,35.0,Idrico,2022
+Toscana,Livorno,35.0,Eolico,2022
+Piemonte,Biella,34.4,Idrico,2022
+Campania,Caserta,34.0,Bioenergie,2022
+Friuli-Venezia Giulia,Trieste,32.7,Fotovoltaico,2022
+Sicilia,Palermo,32.0,Bioenergie,2022
+Valle d'Aosta,Aosta,31.4,Fotovoltaico,2022
+Sardegna,Sassari,30.6,Bioenergie,2022
+Toscana,Grosseto,30.6,Eolico,2022
+Abruzzo,L'Aquila,30.3,Bioenergie,2022
+Emilia-Romagna,Bologna,29.9,Idrico,2022
+Toscana,Massa-Carrara,29.9,Fotovoltaico,2022
+Liguria,La Spezia,29.3,Fotovoltaico,2022
+Sicilia,Catania,28.9,Bioenergie,2022
+Sardegna,Sud Sardegna,26.9,Idrico,2022
+Lombardia,Cremona,26.8,Idrico,2022
+Sardegna,Oristano,26.8,Idrico,2022
+Piemonte,Asti,26.2,Bioenergie,2022
+Piemonte,Cuneo,25.6,Eolico,2022
+Toscana,Firenze,25.5,Bioenergie,2022
+Lombardia,Lecco,24.6,Idrico,2022
+Toscana,Firenze,24.5,Eolico,2022
+Emilia-Romagna,Bologna,24.4,Eolico,2022
+Marche,Ancona,24.1,Idrico,2022
+Marche,Pesaro E Urbino,23.1,Eolico,2022
+Lombardia,Monza e della Brianza,22.9,Bioenergie,2022
+Veneto,Verona,22.0,Eolico,2022
+Marche,Macerata,21.98911,Bioenergie,2022
+Abruzzo,Chieti,21.5,Bioenergie,2022
+Toscana,Pistoia,21.312525,Bioenergie,2022
+Piemonte,Verbano-Cusio-Ossola,21.2,Fotovoltaico,2022
+Marche,Fermo,20.863503,Bioenergie,2022
+Lombardia,Mantova,20.3,Idrico,2022
+Abruzzo,Pescara,19.2,Bioenergie,2022
+Campania,Avellino,19.2,Idrico,2022
+Lazio,Rieti,18.229538,Bioenergie,2022
+Puglia,Lecce,18.2,Bioenergie,2022
+Campania,Caserta,16.6,Eolico,2022
+Sardegna,Oristano,16.5,Bioenergie,2022
+Sicilia,Palermo,15.6,Idrico,2022
+Toscana,Massa-Carrara,14.7,Eolico,2022
+Lazio,Frosinone,14.6,Eolico,2022
+Marche,Fermo,13.2,Idrico,2022
+Campania,Avellino,12.8,Bioenergie,2022
+Sardegna,Cagliari,12.7,Idrico,2022
+Liguria,Savona,12.2,Bioenergie,2022
+Marche,Macerata,12.2,Eolico,2022
+Calabria,Catanzaro,11.733387,Bioenergie,2022
+Sicilia,Agrigento,11.0,Idrico,2022
+Abruzzo,Pescara,10.9,Eolico,2022
+Liguria,Imperia,9.9,Idrico,2022
+Abruzzo,Teramo,9.1,Bioenergie,2022
+Sicilia,Siracusa,9.0,Idrico,2022
+Sicilia,Caltanissetta,8.9,Bioenergie,2022
+Liguria,La Spezia,8.3,Idrico,2022
+Toscana,Prato,8.0,Idrico,2022
+Liguria,Genova,7.7,Eolico,2022
+Veneto,Padova,7.7,Idrico,2022
+Valle d'Aosta,Aosta,7.403168,Bioenergie,2022
+Calabria,Vibo Valentia,7.4,Idrico,2022
+Piemonte,Asti,7.3,Idrico,2022
+Puglia,Barletta-Andria-Trani,7.057075,Bioenergie,2022
+Sicilia,Messina,7.0,Idrico,2022
+Calabria,Vibo Valentia,6.554248,Bioenergie,2022
+Sicilia,Ragusa,6.2,Bioenergie,2022
+Sicilia,Agrigento,5.9,Bioenergie,2022
+Liguria,Savona,5.6,Idrico,2022
+Toscana,Arezzo,5.0,Eolico,2022
+Toscana,Firenze,5.0,Idrico,2022
+Emilia-Romagna,Rimini,4.7,Idrico,2022
+Liguria,La Spezia,4.4,Eolico,2022
+Valle d'Aosta,Aosta,4.4,Eolico,2022
+Puglia,Barletta-Andria-Trani,4.2,Idrico,2022
+Liguria,Imperia,4.0,Eolico,2022
+Piemonte,Verbano-Cusio-Ossola,3.9,Bioenergie,2022
+Liguria,Genova,3.8,Bioenergie,2022
+Umbria,Perugia,3.6,Eolico,2022
+Toscana,Siena,3.5,Idrico,2022
+Campania,Benevento,3.0,Idrico,2022
+Marche,Ascoli Piceno,2.769915,Bioenergie,2022
+Veneto,Rovigo,2.7,Idrico,2022
+Puglia,Taranto,2.3,Idrico,2022
+Puglia,Brindisi,2.1,Idrico,2022
+Toscana,Grosseto,2.0,Idrico,2022
+Liguria,Imperia,1.9,Bioenergie,2022
+Puglia,Bari,1.8,Idrico,2022
+Calabria,Vibo Valentia,1.5,Eolico,2022
+Emilia-Romagna,Ravenna,1.5,Idrico,2022
+Sicilia,Caltanissetta,1.3,Idrico,2022
+Lazio,Latina,1.2,Idrico,2022
+Basilicata,Matera,1.1,Idrico,2022
+Emilia-Romagna,Ferrara,1.0,Idrico,2022
+Veneto,Venezia,0.9,Idrico,2022
+Sicilia,Siracusa,0.8,Bioenergie,2022
+Toscana,Pisa,0.7,Idrico,2022
+Campania,Benevento,0.6,Bioenergie,2022
+Emilia-Romagna,Piacenza,0.5,Eolico,2022
+Emilia-Romagna,Rimini,0.5,Eolico,2022
+Toscana,Lucca,0.319863,Bioenergie,2022
+Sicilia,Trapani,0.2,Idrico,2022
+Emilia-Romagna,Forlì-Cesena,0.1,Eolico,2022
+Emilia-Romagna,Modena,0.1,Eolico,2022
+Marche,Ancona,0.1,Eolico,2022
+Piemonte,Torino,0.1,Eolico,2022
+Toscana,Massa-Carrara,0.06888228,Bioenergie,2022
+Abruzzo,Chieti,0.0,Geotermoelettrico,2022
+Abruzzo,L'Aquila,0.0,Geotermoelettrico,2022
+Abruzzo,Pescara,0.0,Geotermoelettrico,2022
+Abruzzo,Teramo,0.0,Eolico,2022
+Abruzzo,Teramo,0.0,Geotermoelettrico,2022
+Basilicata,Matera,0.0,Geotermoelettrico,2022
+Basilicata,Potenza,0.0,Geotermoelettrico,2022
+Calabria,Catanzaro,0.0,Geotermoelettrico,2022
+Calabria,Cosenza,0.0,Geotermoelettrico,2022
+Calabria,Crotone,0.0,Geotermoelettrico,2022
+Calabria,Reggio Di Calabria,0.0,Geotermoelettrico,2022
+Calabria,Vibo Valentia,0.0,Geotermoelettrico,2022
+Campania,Avellino,0.0,Geotermoelettrico,2022
+Campania,Benevento,0.0,Geotermoelettrico,2022
+Campania,Caserta,0.0,Geotermoelettrico,2022
+Campania,Napoli,0.0,Eolico,2022
+Campania,Napoli,0.0,Geotermoelettrico,2022
+Campania,Napoli,0.0,Idrico,2022
+Campania,Salerno,0.0,Geotermoelettrico,2022
+Emilia-Romagna,Bologna,0.0,Geotermoelettrico,2022
+Emilia-Romagna,Ferrara,0.0,Eolico,2022
+Emilia-Romagna,Ferrara,0.0,Geotermoelettrico,2022
+Emilia-Romagna,Forlì-Cesena,0.0,Geotermoelettrico,2022
+Emilia-Romagna,Modena,0.0,Geotermoelettrico,2022
+Emilia-Romagna,Parma,0.0,Geotermoelettrico,2022
+Emilia-Romagna,Piacenza,0.0,Geotermoelettrico,2022
+Emilia-Romagna,Ravenna,0.0,Eolico,2022
+Emilia-Romagna,Ravenna,0.0,Geotermoelettrico,2022
+Emilia-Romagna,Reggio Nell'Emilia,0.0,Eolico,2022
+Emilia-Romagna,Reggio Nell'Emilia,0.0,Geotermoelettrico,2022
+Emilia-Romagna,Rimini,0.0,Geotermoelettrico,2022
+Friuli-Venezia Giulia,Gorizia,0.0,Eolico,2022
+Friuli-Venezia Giulia,Gorizia,0.0,Geotermoelettrico,2022
+Friuli-Venezia Giulia,Pordenone,0.0,Eolico,2022
+Friuli-Venezia Giulia,Pordenone,0.0,Geotermoelettrico,2022
+Friuli-Venezia Giulia,Trieste,0.0,Eolico,2022
+Friuli-Venezia Giulia,Trieste,0.0,Geotermoelettrico,2022
+Friuli-Venezia Giulia,Trieste,0.0,Idrico,2022
+Friuli-Venezia Giulia,Udine,0.0,Eolico,2022
+Friuli-Venezia Giulia,Udine,0.0,Geotermoelettrico,2022
+Lazio,Frosinone,0.0,Geotermoelettrico,2022
+Lazio,Latina,0.0,Eolico,2022
+Lazio,Latina,0.0,Geotermoelettrico,2022
+Lazio,Rieti,0.0,Eolico,2022
+Lazio,Rieti,0.0,Geotermoelettrico,2022
+Lazio,Roma,0.0,Eolico,2022
+Lazio,Roma,0.0,Geotermoelettrico,2022
+Lazio,Viterbo,0.0,Geotermoelettrico,2022
+Liguria,Genova,0.0,Geotermoelettrico,2022
+Liguria,Imperia,0.0,Geotermoelettrico,2022
+Liguria,La Spezia,0.0,Bioenergie,2022
+Liguria,La Spezia,0.0,Geotermoelettrico,2022
+Liguria,Savona,0.0,Geotermoelettrico,2022
+Lombardia,Bergamo,0.0,Eolico,2022
+Lombardia,Bergamo,0.0,Geotermoelettrico,2022
+Lombardia,Brescia,0.0,Eolico,2022
+Lombardia,Brescia,0.0,Geotermoelettrico,2022
+Lombardia,Como,0.0,Eolico,2022
+Lombardia,Como,0.0,Geotermoelettrico,2022
+Lombardia,Cremona,0.0,Eolico,2022
+Lombardia,Cremona,0.0,Geotermoelettrico,2022
+Lombardia,Lecco,0.0,Eolico,2022
+Lombardia,Lecco,0.0,Geotermoelettrico,2022
+Lombardia,Lodi,0.0,Eolico,2022
+Lombardia,Lodi,0.0,Geotermoelettrico,2022
+Lombardia,Mantova,0.0,Eolico,2022
+Lombardia,Mantova,0.0,Geotermoelettrico,2022
+Lombardia,Milano,0.0,Eolico,2022
+Lombardia,Milano,0.0,Geotermoelettrico,2022
+Lombardia,Monza e della Brianza,0.0,Eolico,2022
+Lombardia,Monza e della Brianza,0.0,Geotermoelettrico,2022
+Lombardia,Pavia,0.0,Eolico,2022
+Lombardia,Pavia,0.0,Geotermoelettrico,2022
+Lombardia,Sondrio,0.0,Eolico,2022
+Lombardia,Sondrio,0.0,Geotermoelettrico,2022
+Lombardia,Varese,0.0,Eolico,2022
+Lombardia,Varese,0.0,Geotermoelettrico,2022
+Marche,Ancona,0.0,Geotermoelettrico,2022
+Marche,Ascoli Piceno,0.0,Eolico,2022
+Marche,Ascoli Piceno,0.0,Geotermoelettrico,2022
+Marche,Fermo,0.0,Eolico,2022
+Marche,Fermo,0.0,Geotermoelettrico,2022
+Marche,Macerata,0.0,Geotermoelettrico,2022
+Marche,Pesaro E Urbino,0.0,Geotermoelettrico,2022
+Molise,Campobasso,0.0,Geotermoelettrico,2022
+Molise,Isernia,0.0,Geotermoelettrico,2022
+Piemonte,Alessandria,0.0,Eolico,2022
+Piemonte,Alessandria,0.0,Geotermoelettrico,2022
+Piemonte,Asti,0.0,Eolico,2022
+Piemonte,Asti,0.0,Geotermoelettrico,2022
+Piemonte,Biella,0.0,Eolico,2022
+Piemonte,Biella,0.0,Geotermoelettrico,2022
+Piemonte,Cuneo,0.0,Geotermoelettrico,2022
+Piemonte,Novara,0.0,Eolico,2022
+Piemonte,Novara,0.0,Geotermoelettrico,2022
+Piemonte,Torino,0.0,Geotermoelettrico,2022
+Piemonte,Verbano-Cusio-Ossola,0.0,Eolico,2022
+Piemonte,Verbano-Cusio-Ossola,0.0,Geotermoelettrico,2022
+Piemonte,Vercelli,0.0,Eolico,2022
+Piemonte,Vercelli,0.0,Geotermoelettrico,2022
+Puglia,Bari,0.0,Geotermoelettrico,2022
+Puglia,Barletta-Andria-Trani,0.0,Geotermoelettrico,2022
+Puglia,Brindisi,0.0,Geotermoelettrico,2022
+Puglia,Foggia,0.0,Geotermoelettrico,2022
+Puglia,Foggia,0.0,Idrico,2022
+Puglia,Lecce,0.0,Geotermoelettrico,2022
+Puglia,Lecce,0.0,Idrico,2022
+Puglia,Taranto,0.0,Geotermoelettrico,2022
+Sardegna,Cagliari,0.0,Geotermoelettrico,2022
+Sardegna,Nuoro,0.0,Geotermoelettrico,2022
+Sardegna,Oristano,0.0,Geotermoelettrico,2022
+Sardegna,Sassari,0.0,Geotermoelettrico,2022
+Sardegna,Sud Sardegna,0.0,Geotermoelettrico,2022
+Sicilia,Agrigento,0.0,Geotermoelettrico,2022
+Sicilia,Caltanissetta,0.0,Geotermoelettrico,2022
+Sicilia,Catania,0.0,Geotermoelettrico,2022
+Sicilia,Enna,0.0,Geotermoelettrico,2022
+Sicilia,Messina,0.0,Bioenergie,2022
+Sicilia,Messina,0.0,Geotermoelettrico,2022
+Sicilia,Palermo,0.0,Geotermoelettrico,2022
+Sicilia,Ragusa,0.0,Geotermoelettrico,2022
+Sicilia,Ragusa,0.0,Idrico,2022
+Sicilia,Siracusa,0.0,Geotermoelettrico,2022
+Sicilia,Trapani,0.0,Bioenergie,2022
+Sicilia,Trapani,0.0,Geotermoelettrico,2022
+Toscana,Arezzo,0.0,Geotermoelettrico,2022
+Toscana,Firenze,0.0,Geotermoelettrico,2022
+Toscana,Livorno,0.0,Geotermoelettrico,2022
+Toscana,Livorno,0.0,Idrico,2022
+Toscana,Lucca,0.0,Eolico,2022
+Toscana,Lucca,0.0,Geotermoelettrico,2022
+Toscana,Massa-Carrara,0.0,Geotermoelettrico,2022
+Toscana,Pistoia,0.0,Eolico,2022
+Toscana,Pistoia,0.0,Geotermoelettrico,2022
+Toscana,Prato,0.0,Bioenergie,2022
+Toscana,Prato,0.0,Eolico,2022
+Toscana,Prato,0.0,Geotermoelettrico,2022
+Toscana,Siena,0.0,Eolico,2022
+Trentino-Alto Adige,Bolzano/Bozen,0.0,Eolico,2022
+Trentino-Alto Adige,Bolzano/Bozen,0.0,Geotermoelettrico,2022
+Trentino-Alto Adige,Trento,0.0,Eolico,2022
+Trentino-Alto Adige,Trento,0.0,Geotermoelettrico,2022
+Umbria,Perugia,0.0,Geotermoelettrico,2022
+Umbria,Terni,0.0,Eolico,2022
+Umbria,Terni,0.0,Geotermoelettrico,2022
+Valle d'Aosta,Aosta,0.0,Geotermoelettrico,2022
+Veneto,Belluno,0.0,Eolico,2022
+Veneto,Belluno,0.0,Geotermoelettrico,2022
+Veneto,Padova,0.0,Eolico,2022
+Veneto,Padova,0.0,Geotermoelettrico,2022
+Veneto,Rovigo,0.0,Eolico,2022
+Veneto,Rovigo,0.0,Geotermoelettrico,2022
+Veneto,Treviso,0.0,Eolico,2022
+Veneto,Treviso,0.0,Geotermoelettrico,2022
+Veneto,Venezia,0.0,Eolico,2022
+Veneto,Venezia,0.0,Geotermoelettrico,2022
+Veneto,Verona,0.0,Geotermoelettrico,2022
+Veneto,Vicenza,0.0,Eolico,2022
+Veneto,Vicenza,0.0,Geotermoelettrico,2022
+Trentino-Alto Adige,Bolzano/Bozen,6175.951,Idrico,2023
+Puglia,Foggia,5387.762,Eolico,2023
+Lombardia,Sondrio,4648.6665,Idrico,2023
+Trentino-Alto Adige,Trento,3262.027,Idrico,2023
+Valle d'Aosta,Aosta,3124.5203,Idrico,2023
+Toscana,Pisa,2899.5977,Geotermoelettrico,2023
+Basilicata,Potenza,2576.108,Eolico,2023
+Lombardia,Brescia,2164.6973,Idrico,2023
+Piemonte,Torino,1935.5948,Idrico,2023
+Campania,Benevento,1879.838,Eolico,2023
+Veneto,Belluno,1838.492,Idrico,2023
+Piemonte,Verbano-Cusio-Ossola,1817.2377,Idrico,2023
+Campania,Avellino,1797.446,Eolico,2023
+Toscana,Grosseto,1452.9365,Geotermoelettrico,2023
+Toscana,Siena,1339.6602,Geotermoelettrico,2023
+Umbria,Terni,1321.6628,Idrico,2023
+Calabria,Catanzaro,1305.1876,Eolico,2023
+Piemonte,Cuneo,1200.0093,Idrico,2023
+Sardegna,Sassari,1116.0017,Eolico,2023
+Sicilia,Trapani,1043.4539,Eolico,2023
+Puglia,Lecce,1027.845,Fotovoltaico,2023
+Puglia,Bari,957.2256,Bioenergie,2023
+Lombardia,Bergamo,935.80707,Idrico,2023
+Puglia,Foggia,863.4212,Fotovoltaico,2023
+Friuli-Venezia Giulia,Udine,853.6448,Idrico,2023
+Lazio,Viterbo,846.19104,Fotovoltaico,2023
+Lombardia,Cremona,813.88135,Bioenergie,2023
+Sicilia,Palermo,794.61053,Eolico,2023
+Puglia,Bari,788.5154,Fotovoltaico,2023
+Piemonte,Cuneo,760.65814,Fotovoltaico,2023
+Emilia-Romagna,Ravenna,756.8974,Bioenergie,2023
+Veneto,Verona,745.6808,Idrico,2023
+Calabria,Crotone,743.657,Eolico,2023
+Lombardia,Brescia,742.85815,Bioenergie,2023
+Puglia,Brindisi,737.6121,Fotovoltaico,2023
+Lombardia,Brescia,737.06464,Fotovoltaico,2023
+Veneto,Treviso,710.2305,Idrico,2023
+Lazio,Roma,675.53296,Fotovoltaico,2023
+Basilicata,Matera,662.99884,Eolico,2023
+Campania,Napoli,655.7003,Bioenergie,2023
+Piemonte,Torino,652.77423,Bioenergie,2023
+Piemonte,Torino,650.8492,Fotovoltaico,2023
+Lombardia,Pavia,604.3477,Bioenergie,2023
+Friuli-Venezia Giulia,Pordenone,593.5145,Idrico,2023
+Molise,Campobasso,568.83234,Eolico,2023
+Abruzzo,Chieti,541.1441,Idrico,2023
+Calabria,Cosenza,538.98486,Idrico,2023
+Emilia-Romagna,Ravenna,537.2782,Fotovoltaico,2023
+Puglia,Taranto,531.71747,Fotovoltaico,2023
+Veneto,Padova,526.517,Fotovoltaico,2023
+Veneto,Treviso,524.2301,Fotovoltaico,2023
+Veneto,Verona,518.82465,Fotovoltaico,2023
+Sardegna,Cagliari,516.8701,Fotovoltaico,2023
+Lombardia,Milano,512.67615,Fotovoltaico,2023
+Veneto,Venezia,490.92532,Bioenergie,2023
+Lombardia,Bergamo,489.04413,Fotovoltaico,2023
+Emilia-Romagna,Bologna,488.33716,Fotovoltaico,2023
+Lombardia,Mantova,473.27026,Bioenergie,2023
+Umbria,Perugia,470.37778,Fotovoltaico,2023
+Veneto,Rovigo,467.8201,Fotovoltaico,2023
+Veneto,Vicenza,467.1731,Fotovoltaico,2023
+Sicilia,Agrigento,441.8279,Eolico,2023
+Lombardia,Lodi,439.3537,Bioenergie,2023
+Calabria,Crotone,437.41956,Bioenergie,2023
+Campania,Salerno,433.50333,Eolico,2023
+Emilia-Romagna,Ferrara,429.49896,Bioenergie,2023
+Puglia,Taranto,421.44727,Eolico,2023
+Friuli-Venezia Giulia,Udine,420.1614,Fotovoltaico,2023
+Marche,Macerata,417.46655,Fotovoltaico,2023
+Lazio,Latina,403.18454,Fotovoltaico,2023
+Sardegna,Sud Sardegna,400.80017,Eolico,2023
+Sicilia,Catania,400.36407,Fotovoltaico,2023
+Marche,Ancona,400.13083,Fotovoltaico,2023
+Veneto,Padova,391.64267,Bioenergie,2023
+Emilia-Romagna,Modena,390.8097,Fotovoltaico,2023
+Abruzzo,Teramo,386.31198,Idrico,2023
+Piemonte,Alessandria,375.34717,Fotovoltaico,2023
+Basilicata,Potenza,375.32727,Idrico,2023
+Sicilia,Trapani,370.25925,Fotovoltaico,2023
+Calabria,Cosenza,361.6881,Fotovoltaico,2023
+Lazio,Frosinone,351.64114,Bioenergie,2023
+Lazio,Roma,351.45303,Idrico,2023
+Campania,Salerno,351.09177,Fotovoltaico,2023
+Marche,Pesaro E Urbino,346.59518,Fotovoltaico,2023
+Calabria,Cosenza,345.32196,Bioenergie,2023
+Lombardia,Milano,344.65253,Bioenergie,2023
+Trentino-Alto Adige,Bolzano/Bozen,343.69662,Fotovoltaico,2023
+Abruzzo,Pescara,341.81448,Idrico,2023
+Puglia,Foggia,338.99832,Bioenergie,2023
+Abruzzo,Chieti,336.20123,Fotovoltaico,2023
+Sicilia,Ragusa,333.018,Fotovoltaico,2023
+Piemonte,Cuneo,332.43185,Bioenergie,2023
+Abruzzo,Teramo,332.3014,Fotovoltaico,2023
+Sicilia,Agrigento,331.7892,Fotovoltaico,2023
+Abruzzo,Chieti,331.33295,Eolico,2023
+Lombardia,Mantova,330.29343,Fotovoltaico,2023
+Campania,Caserta,329.33215,Fotovoltaico,2023
+Emilia-Romagna,Forlì-Cesena,327.39014,Fotovoltaico,2023
+Sardegna,Sassari,325.86514,Fotovoltaico,2023
+Toscana,Lucca,322.77283,Idrico,2023
+Emilia-Romagna,Piacenza,322.2346,Idrico,2023
+Campania,Caserta,319.43906,Idrico,2023
+Veneto,Venezia,317.93134,Fotovoltaico,2023
+Sicilia,Catania,312.34955,Eolico,2023
+Basilicata,Matera,310.93066,Fotovoltaico,2023
+Sicilia,Siracusa,308.70453,Fotovoltaico,2023
+Lombardia,Cremona,307.87744,Fotovoltaico,2023
+Veneto,Verona,304.91678,Bioenergie,2023
+Campania,Salerno,304.68127,Idrico,2023
+Lazio,Frosinone,303.02283,Idrico,2023
+Emilia-Romagna,Bologna,294.43115,Bioenergie,2023
+Veneto,Vicenza,289.45676,Idrico,2023
+Emilia-Romagna,Ferrara,287.65985,Fotovoltaico,2023
+Sicilia,Palermo,281.09427,Fotovoltaico,2023
+Liguria,Savona,280.2349,Eolico,2023
+Sardegna,Sud Sardegna,279.00232,Fotovoltaico,2023
+Lazio,Rieti,278.29846,Idrico,2023
+Emilia-Romagna,Reggio Nell'Emilia,275.12897,Fotovoltaico,2023
+Calabria,Crotone,273.3019,Idrico,2023
+Emilia-Romagna,Parma,273.1771,Fotovoltaico,2023
+Emilia-Romagna,Modena,268.48898,Bioenergie,2023
+Trentino-Alto Adige,Trento,267.79004,Fotovoltaico,2023
+Sardegna,Nuoro,267.43268,Eolico,2023
+Basilicata,Potenza,262.02017,Fotovoltaico,2023
+Campania,Napoli,261.0578,Fotovoltaico,2023
+Lombardia,Pavia,258.82596,Fotovoltaico,2023
+Lombardia,Varese,258.03342,Idrico,2023
+Trentino-Alto Adige,Bolzano/Bozen,254.31589,Bioenergie,2023
+Abruzzo,L'Aquila,248.25151,Fotovoltaico,2023
+Emilia-Romagna,Piacenza,246.85239,Fotovoltaico,2023
+Puglia,Barletta-Andria-Trani,244.23874,Fotovoltaico,2023
+Lazio,Frosinone,238.53192,Fotovoltaico,2023
+Lombardia,Varese,235.44437,Fotovoltaico,2023
+Friuli-Venezia Giulia,Pordenone,231.56902,Fotovoltaico,2023
+Abruzzo,L'Aquila,230.93654,Idrico,2023
+Toscana,Arezzo,229.73921,Fotovoltaico,2023
+Puglia,Brindisi,229.0295,Bioenergie,2023
+Sardegna,Nuoro,227.71423,Bioenergie,2023
+Sicilia,Messina,227.35223,Eolico,2023
+Lombardia,Bergamo,226.52568,Bioenergie,2023
+Lombardia,Milano,220.7407,Idrico,2023
+Marche,Ascoli Piceno,218.21281,Idrico,2023
+Piemonte,Alessandria,218.00908,Bioenergie,2023
+Piemonte,Vercelli,217.6133,Bioenergie,2023
+Friuli-Venezia Giulia,Udine,208.50989,Bioenergie,2023
+Lombardia,Monza e della Brianza,206.45758,Idrico,2023
+Calabria,Catanzaro,203.5735,Fotovoltaico,2023
+Sardegna,Nuoro,202.72327,Fotovoltaico,2023
+Molise,Isernia,200.99318,Eolico,2023
+Sardegna,Oristano,196.48232,Fotovoltaico,2023
+Sardegna,Cagliari,196.0514,Bioenergie,2023
+Marche,Macerata,195.09132,Idrico,2023
+Sicilia,Enna,192.63483,Eolico,2023
+Calabria,Cosenza,183.84514,Eolico,2023
+Puglia,Lecce,183.68991,Eolico,2023
+Sicilia,Siracusa,182.63786,Eolico,2023
+Molise,Campobasso,182.50262,Fotovoltaico,2023
+Puglia,Barletta-Andria-Trani,179.64735,Eolico,2023
+Friuli-Venezia Giulia,Pordenone,176.99767,Bioenergie,2023
+Molise,Isernia,175.17712,Idrico,2023
+Emilia-Romagna,Piacenza,174.56909,Bioenergie,2023
+Lombardia,Monza e della Brianza,174.21428,Fotovoltaico,2023
+Puglia,Bari,172.29077,Eolico,2023
+Piemonte,Novara,170.53523,Fotovoltaico,2023
+Marche,Ascoli Piceno,169.92903,Fotovoltaico,2023
+Friuli-Venezia Giulia,Gorizia,167.49684,Bioenergie,2023
+Umbria,Terni,165.26154,Fotovoltaico,2023
+Toscana,Pisa,163.02373,Eolico,2023
+Lombardia,Lodi,161.95557,Fotovoltaico,2023
+Toscana,Firenze,159.74284,Fotovoltaico,2023
+Toscana,Pisa,155.72028,Fotovoltaico,2023
+Veneto,Belluno,155.6346,Bioenergie,2023
+Sicilia,Caltanissetta,152.11037,Fotovoltaico,2023
+Abruzzo,L'Aquila,151.08632,Eolico,2023
+Sardegna,Nuoro,150.74687,Idrico,2023
+Marche,Fermo,150.23026,Fotovoltaico,2023
+Lombardia,Como,148.50449,Fotovoltaico,2023
+Veneto,Rovigo,146.11835,Bioenergie,2023
+Lombardia,Como,142.31297,Idrico,2023
+Piemonte,Biella,140.25809,Fotovoltaico,2023
+Piemonte,Vercelli,139.63246,Fotovoltaico,2023
+Piemonte,Novara,138.54395,Idrico,2023
+Abruzzo,Pescara,138.45738,Fotovoltaico,2023
+Emilia-Romagna,Rimini,137.60992,Fotovoltaico,2023
+Emilia-Romagna,Modena,137.47745,Idrico,2023
+Calabria,Catanzaro,137.41626,Idrico,2023
+Lazio,Viterbo,133.10954,Eolico,2023
+Emilia-Romagna,Parma,132.25398,Idrico,2023
+Veneto,Vicenza,129.87465,Bioenergie,2023
+Piemonte,Vercelli,128.45709,Idrico,2023
+Campania,Avellino,127.63478,Fotovoltaico,2023
+Piemonte,Asti,127.36795,Fotovoltaico,2023
+Sicilia,Caltanissetta,127.192154,Eolico,2023
+Puglia,Brindisi,118.83444,Eolico,2023
+Toscana,Grosseto,117.30301,Fotovoltaico,2023
+Toscana,Livorno,115.615746,Fotovoltaico,2023
+Toscana,Lucca,114.6955,Fotovoltaico,2023
+Emilia-Romagna,Parma,111.447945,Bioenergie,2023
+Sardegna,Oristano,111.42022,Eolico,2023
+Veneto,Treviso,109.25225,Bioenergie,2023
+Emilia-Romagna,Forlì-Cesena,106.0217,Bioenergie,2023
+Lazio,Roma,105.77431,Bioenergie,2023
+Basilicata,Matera,105.233055,Bioenergie,2023
+Calabria,Reggio Di Calabria,104.75834,Fotovoltaico,2023
+Umbria,Terni,104.628494,Bioenergie,2023
+Sicilia,Enna,103.75545,Fotovoltaico,2023
+Sicilia,Enna,103.10713,Bioenergie,2023
+Piemonte,Novara,102.86684,Bioenergie,2023
+Sicilia,Messina,100.4733,Fotovoltaico,2023
+Toscana,Siena,98.90835,Fotovoltaico,2023
+Toscana,Prato,90.642105,Fotovoltaico,2023
+Liguria,Genova,90.00214,Idrico,2023
+Emilia-Romagna,Reggio Nell'Emilia,89.502235,Bioenergie,2023
+Emilia-Romagna,Reggio Nell'Emilia,88.974655,Idrico,2023
+Toscana,Pistoia,88.52155,Idrico,2023
+Campania,Benevento,87.96539,Fotovoltaico,2023
+Toscana,Grosseto,87.59044,Bioenergie,2023
+Lazio,Viterbo,85.64765,Idrico,2023
+Sardegna,Sassari,81.58287,Idrico,2023
+Lombardia,Lecco,81.41113,Fotovoltaico,2023
+Umbria,Perugia,80.512665,Idrico,2023
+Toscana,Massa-Carrara,75.1524,Idrico,2023
+Sicilia,Ragusa,75.10407,Eolico,2023
+Lombardia,Sondrio,74.478355,Bioenergie,2023
+Toscana,Arezzo,74.38382,Idrico,2023
+Molise,Campobasso,74.24668,Bioenergie,2023
+Lombardia,Sondrio,73.44377,Fotovoltaico,2023
+Emilia-Romagna,Rimini,71.67737,Bioenergie,2023
+Umbria,Perugia,71.57317,Bioenergie,2023
+Sicilia,Catania,71.10432,Idrico,2023
+Lazio,Latina,70.42096,Bioenergie,2023
+Marche,Pesaro E Urbino,68.80752,Idrico,2023
+Lombardia,Varese,68.74846,Bioenergie,2023
+Friuli-Venezia Giulia,Trieste,68.65321,Bioenergie,2023
+Toscana,Siena,67.76509,Bioenergie,2023
+Sardegna,Sud Sardegna,66.36712,Bioenergie,2023
+Toscana,Pistoia,66.202644,Fotovoltaico,2023
+Puglia,Taranto,64.86366,Bioenergie,2023
+Veneto,Belluno,63.694565,Fotovoltaico,2023
+Piemonte,Alessandria,61.6529,Idrico,2023
+Emilia-Romagna,Forlì-Cesena,60.43206,Idrico,2023
+Calabria,Crotone,59.78883,Fotovoltaico,2023
+Emilia-Romagna,Bologna,59.53838,Idrico,2023
+Emilia-Romagna,Parma,59.40907,Eolico,2023
+Lombardia,Como,57.2322,Bioenergie,2023
+Toscana,Pisa,57.187763,Bioenergie,2023
+Calabria,Reggio Di Calabria,56.15644,Bioenergie,2023
+Calabria,Vibo Valentia,56.0844,Fotovoltaico,2023
+Trentino-Alto Adige,Trento,55.140507,Bioenergie,2023
+Lombardia,Pavia,54.053425,Idrico,2023
+Lombardia,Lecco,53.630432,Idrico,2023
+Lombardia,Lodi,52.47777,Idrico,2023
+Piemonte,Biella,51.961155,Idrico,2023
+Calabria,Reggio Di Calabria,51.70226,Eolico,2023
+Friuli-Venezia Giulia,Gorizia,51.57945,Fotovoltaico,2023
+Toscana,Arezzo,50.46586,Bioenergie,2023
+Molise,Isernia,50.354523,Fotovoltaico,2023
+Friuli-Venezia Giulia,Gorizia,48.08266,Idrico,2023
+Molise,Isernia,47.674637,Bioenergie,2023
+Marche,Ancona,47.18357,Bioenergie,2023
+Liguria,Savona,47.096653,Fotovoltaico,2023
+Molise,Campobasso,46.95205,Idrico,2023
+Lazio,Viterbo,46.277622,Bioenergie,2023
+Piemonte,Biella,45.677116,Bioenergie,2023
+Calabria,Reggio Di Calabria,44.609245,Idrico,2023
+Basilicata,Potenza,44.52327,Bioenergie,2023
+Marche,Pesaro E Urbino,43.92472,Bioenergie,2023
+Lombardia,Cremona,43.880505,Idrico,2023
+Toscana,Livorno,43.756767,Bioenergie,2023
+Liguria,Genova,42.097946,Fotovoltaico,2023
+Liguria,Imperia,42.057667,Fotovoltaico,2023
+Lombardia,Lecco,41.93451,Bioenergie,2023
+Campania,Salerno,41.30806,Bioenergie,2023
+Toscana,Livorno,41.27313,Eolico,2023
+Lazio,Rieti,40.5611,Fotovoltaico,2023
+Sardegna,Cagliari,39.913937,Eolico,2023
+Campania,Avellino,35.603447,Idrico,2023
+Liguria,La Spezia,35.41378,Fotovoltaico,2023
+Toscana,Massa-Carrara,35.01839,Fotovoltaico,2023
+Liguria,Imperia,34.858562,Idrico,2023
+Sardegna,Oristano,34.78196,Idrico,2023
+Valle d'Aosta,Aosta,34.466545,Fotovoltaico,2023
+Friuli-Venezia Giulia,Trieste,33.760323,Fotovoltaico,2023
+Emilia-Romagna,Bologna,33.230705,Eolico,2023
+Campania,Caserta,32.8738,Bioenergie,2023
+Toscana,Grosseto,32.83431,Eolico,2023
+Toscana,Firenze,32.034813,Bioenergie,2023
+Sardegna,Sud Sardegna,30.080025,Idrico,2023
+Toscana,Firenze,29.985455,Eolico,2023
+Abruzzo,L'Aquila,29.488382,Bioenergie,2023
+Marche,Pesaro E Urbino,28.118805,Eolico,2023
+Piemonte,Verbano-Cusio-Ossola,28.118074,Fotovoltaico,2023
+Abruzzo,Pescara,27.38969,Bioenergie,2023
+Marche,Ancona,27.384247,Idrico,2023
+Lombardia,Mantova,27.145813,Idrico,2023
+Sicilia,Catania,25.970623,Bioenergie,2023
+Toscana,Pistoia,25.14258,Bioenergie,2023
+Piemonte,Cuneo,25.026102,Eolico,2023
+Lombardia,Monza e della Brianza,23.901506,Bioenergie,2023
+Sardegna,Sassari,23.833727,Bioenergie,2023
+Abruzzo,Chieti,23.656748,Bioenergie,2023
+Veneto,Verona,21.336248,Eolico,2023
+Lazio,Rieti,20.278702,Bioenergie,2023
+Piemonte,Asti,19.579517,Bioenergie,2023
+Marche,Macerata,18.884573,Bioenergie,2023
+Toscana,Massa-Carrara,18.666998,Eolico,2023
+Sicilia,Palermo,18.58153,Bioenergie,2023
+Campania,Caserta,18.293594,Eolico,2023
+Marche,Fermo,17.3834,Bioenergie,2023
+Marche,Fermo,16.697157,Idrico,2023
+Veneto,Padova,16.502317,Idrico,2023
+Lazio,Frosinone,15.121138,Eolico,2023
+Puglia,Lecce,14.862679,Bioenergie,2023
+Abruzzo,Teramo,14.603596,Bioenergie,2023
+Sicilia,Agrigento,13.773404,Idrico,2023
+Toscana,Firenze,13.620123,Idrico,2023
+Sardegna,Oristano,13.367412,Bioenergie,2023
+Abruzzo,Pescara,12.360377,Eolico,2023
+Piemonte,Asti,12.153544,Idrico,2023
+Sicilia,Enna,11.870629,Idrico,2023
+Toscana,Prato,11.718468,Idrico,2023
+Calabria,Catanzaro,10.651826,Bioenergie,2023
+Liguria,Savona,10.151542,Bioenergie,2023
+Marche,Macerata,9.607199,Eolico,2023
+Emilia-Romagna,Rimini,9.56163,Idrico,2023
+Calabria,Vibo Valentia,9.488571,Idrico,2023
+Sicilia,Siracusa,9.410984,Idrico,2023
+Sicilia,Caltanissetta,8.86852,Bioenergie,2023
+Liguria,La Spezia,8.52891,Idrico,2023
+Liguria,Savona,8.220382,Idrico,2023
+Sicilia,Palermo,7.8863583,Idrico,2023
+Sicilia,Messina,7.353616,Idrico,2023
+Puglia,Barletta-Andria-Trani,7.322014,Bioenergie,2023
+Liguria,Genova,7.289736,Eolico,2023
+Campania,Avellino,7.2660823,Bioenergie,2023
+Valle d'Aosta,Aosta,6.921551,Bioenergie,2023
+Piemonte,Verbano-Cusio-Ossola,6.7910957,Bioenergie,2023
+Toscana,Arezzo,6.7823753,Eolico,2023
+Sardegna,Cagliari,6.667704,Idrico,2023
+Liguria,La Spezia,5.382177,Eolico,2023
+Umbria,Perugia,5.3510423,Eolico,2023
+Sicilia,Agrigento,4.8843036,Bioenergie,2023
+Calabria,Vibo Valentia,4.733633,Bioenergie,2023
+Liguria,Imperia,4.363988,Eolico,2023
+Valle d'Aosta,Aosta,4.325304,Eolico,2023
+Veneto,Venezia,4.2821302,Idrico,2023
+Sicilia,Ragusa,4.280355,Bioenergie,2023
+Puglia,Barletta-Andria-Trani,4.072302,Idrico,2023
+Toscana,Siena,3.931292,Idrico,2023
+Campania,Benevento,3.446985,Idrico,2023
+Veneto,Rovigo,2.935417,Idrico,2023
+Puglia,Taranto,2.18672,Idrico,2023
+Toscana,Grosseto,2.1369321,Idrico,2023
+Marche,Ascoli Piceno,2.050882,Bioenergie,2023
+Puglia,Bari,1.929418,Idrico,2023
+Lazio,Latina,1.7422489,Idrico,2023
+Liguria,Imperia,1.691952,Bioenergie,2023
+Puglia,Brindisi,1.636209,Idrico,2023
+Emilia-Romagna,Ravenna,1.5892867,Idrico,2023
+Basilicata,Matera,1.38486,Idrico,2023
+Campania,Benevento,1.305109,Bioenergie,2023
+Emilia-Romagna,Ferrara,1.080048,Idrico,2023
+Sicilia,Caltanissetta,0.974962,Idrico,2023
+Emilia-Romagna,Piacenza,0.798951,Eolico,2023
+Calabria,Vibo Valentia,0.7310499,Eolico,2023
+Toscana,Pisa,0.6581727,Idrico,2023
+Sicilia,Siracusa,0.5691741,Bioenergie,2023
+Emilia-Romagna,Rimini,0.47003463,Eolico,2023
+Liguria,Genova,0.388212,Bioenergie,2023
+Sicilia,Trapani,0.1667,Idrico,2023
+Emilia-Romagna,Forlì-Cesena,0.1611247,Eolico,2023
+Toscana,Lucca,0.12792039,Bioenergie,2023
+Marche,Ancona,0.0986619,Eolico,2023
+Emilia-Romagna,Reggio Nell'Emilia,0.06876617,Eolico,2023
+Trentino-Alto Adige,Bolzano/Bozen,0.03811657,Eolico,2023
+Piemonte,Alessandria,0.00918874,Eolico,2023
+Emilia-Romagna,Ravenna,0.00846,Eolico,2023
+Lazio,Roma,0.00647325,Eolico,2023
+Piemonte,Torino,0.00601194,Eolico,2023
+Umbria,Terni,0.00545322,Eolico,2023
+Piemonte,Biella,0.00285122,Eolico,2023
+Friuli-Venezia Giulia,Udine,0.00220298,Eolico,2023
+Marche,Fermo,0.00131357,Eolico,2023
+Lombardia,Varese,0.00094571,Eolico,2023
+Emilia-Romagna,Modena,0.00082011,Eolico,2023
+Lombardia,Bergamo,0.0006814,Eolico,2023
+Lombardia,Brescia,0.00023317,Eolico,2023
+Toscana,Pistoia,0.00022011,Eolico,2023
+Lombardia,Pavia,1.812e-05,Eolico,2023
+Toscana,Siena,4.02e-06,Eolico,2023
+Veneto,Vicenza,2.02e-06,Eolico,2023
+Abruzzo,Chieti,0.0,Geotermoelettrico,2023
+Abruzzo,L'Aquila,0.0,Geotermoelettrico,2023
+Abruzzo,Pescara,0.0,Geotermoelettrico,2023
+Abruzzo,Teramo,0.0,Eolico,2023
+Abruzzo,Teramo,0.0,Geotermoelettrico,2023
+Basilicata,Matera,0.0,Geotermoelettrico,2023
+Basilicata,Potenza,0.0,Geotermoelettrico,2023
+Calabria,Catanzaro,0.0,Geotermoelettrico,2023
+Calabria,Cosenza,0.0,Geotermoelettrico,2023
+Calabria,Crotone,0.0,Geotermoelettrico,2023
+Calabria,Reggio Di Calabria,0.0,Geotermoelettrico,2023
+Calabria,Vibo Valentia,0.0,Geotermoelettrico,2023
+Campania,Avellino,0.0,Geotermoelettrico,2023
+Campania,Benevento,0.0,Geotermoelettrico,2023
+Campania,Caserta,0.0,Geotermoelettrico,2023
+Campania,Napoli,0.0,Eolico,2023
+Campania,Napoli,0.0,Geotermoelettrico,2023
+Campania,Napoli,0.0,Idrico,2023
+Campania,Salerno,0.0,Geotermoelettrico,2023
+Emilia-Romagna,Bologna,0.0,Geotermoelettrico,2023
+Emilia-Romagna,Ferrara,0.0,Eolico,2023
+Emilia-Romagna,Ferrara,0.0,Geotermoelettrico,2023
+Emilia-Romagna,Forlì-Cesena,0.0,Geotermoelettrico,2023
+Emilia-Romagna,Modena,0.0,Geotermoelettrico,2023
+Emilia-Romagna,Parma,0.0,Geotermoelettrico,2023
+Emilia-Romagna,Piacenza,0.0,Geotermoelettrico,2023
+Emilia-Romagna,Ravenna,0.0,Geotermoelettrico,2023
+Emilia-Romagna,Reggio Nell'Emilia,0.0,Geotermoelettrico,2023
+Emilia-Romagna,Rimini,0.0,Geotermoelettrico,2023
+Friuli-Venezia Giulia,Gorizia,0.0,Eolico,2023
+Friuli-Venezia Giulia,Gorizia,0.0,Geotermoelettrico,2023
+Friuli-Venezia Giulia,Pordenone,0.0,Eolico,2023
+Friuli-Venezia Giulia,Pordenone,0.0,Geotermoelettrico,2023
+Friuli-Venezia Giulia,Trieste,0.0,Eolico,2023
+Friuli-Venezia Giulia,Trieste,0.0,Geotermoelettrico,2023
+Friuli-Venezia Giulia,Trieste,0.0,Idrico,2023
+Friuli-Venezia Giulia,Udine,0.0,Geotermoelettrico,2023
+Lazio,Frosinone,0.0,Geotermoelettrico,2023
+Lazio,Latina,0.0,Eolico,2023
+Lazio,Latina,0.0,Geotermoelettrico,2023
+Lazio,Rieti,0.0,Eolico,2023
+Lazio,Rieti,0.0,Geotermoelettrico,2023
+Lazio,Roma,0.0,Geotermoelettrico,2023
+Lazio,Viterbo,0.0,Geotermoelettrico,2023
+Liguria,Genova,0.0,Geotermoelettrico,2023
+Liguria,Imperia,0.0,Geotermoelettrico,2023
+Liguria,La Spezia,0.0,Bioenergie,2023
+Liguria,La Spezia,0.0,Geotermoelettrico,2023
+Liguria,Savona,0.0,Geotermoelettrico,2023
+Lombardia,Bergamo,0.0,Geotermoelettrico,2023
+Lombardia,Brescia,0.0,Geotermoelettrico,2023
+Lombardia,Como,0.0,Eolico,2023
+Lombardia,Como,0.0,Geotermoelettrico,2023
+Lombardia,Cremona,0.0,Eolico,2023
+Lombardia,Cremona,0.0,Geotermoelettrico,2023
+Lombardia,Lecco,0.0,Eolico,2023
+Lombardia,Lecco,0.0,Geotermoelettrico,2023
+Lombardia,Lodi,0.0,Eolico,2023
+Lombardia,Lodi,0.0,Geotermoelettrico,2023
+Lombardia,Mantova,0.0,Eolico,2023
+Lombardia,Mantova,0.0,Geotermoelettrico,2023
+Lombardia,Milano,0.0,Eolico,2023
+Lombardia,Milano,0.0,Geotermoelettrico,2023
+Lombardia,Monza e della Brianza,0.0,Eolico,2023
+Lombardia,Monza e della Brianza,0.0,Geotermoelettrico,2023
+Lombardia,Pavia,0.0,Geotermoelettrico,2023
+Lombardia,Sondrio,0.0,Eolico,2023
+Lombardia,Sondrio,0.0,Geotermoelettrico,2023
+Lombardia,Varese,0.0,Geotermoelettrico,2023
+Marche,Ancona,0.0,Geotermoelettrico,2023
+Marche,Ascoli Piceno,0.0,Eolico,2023
+Marche,Ascoli Piceno,0.0,Geotermoelettrico,2023
+Marche,Fermo,0.0,Geotermoelettrico,2023
+Marche,Macerata,0.0,Geotermoelettrico,2023
+Marche,Pesaro E Urbino,0.0,Geotermoelettrico,2023
+Molise,Campobasso,0.0,Geotermoelettrico,2023
+Molise,Isernia,0.0,Geotermoelettrico,2023
+Piemonte,Alessandria,0.0,Geotermoelettrico,2023
+Piemonte,Asti,0.0,Eolico,2023
+Piemonte,Asti,0.0,Geotermoelettrico,2023
+Piemonte,Biella,0.0,Geotermoelettrico,2023
+Piemonte,Cuneo,0.0,Geotermoelettrico,2023
+Piemonte,Novara,0.0,Eolico,2023
+Piemonte,Novara,0.0,Geotermoelettrico,2023
+Piemonte,Torino,0.0,Geotermoelettrico,2023
+Piemonte,Verbano-Cusio-Ossola,0.0,Eolico,2023
+Piemonte,Verbano-Cusio-Ossola,0.0,Geotermoelettrico,2023
+Piemonte,Vercelli,0.0,Eolico,2023
+Piemonte,Vercelli,0.0,Geotermoelettrico,2023
+Puglia,Bari,0.0,Geotermoelettrico,2023
+Puglia,Barletta-Andria-Trani,0.0,Geotermoelettrico,2023
+Puglia,Brindisi,0.0,Geotermoelettrico,2023
+Puglia,Foggia,0.0,Geotermoelettrico,2023
+Puglia,Foggia,0.0,Idrico,2023
+Puglia,Lecce,0.0,Geotermoelettrico,2023
+Puglia,Lecce,0.0,Idrico,2023
+Puglia,Taranto,0.0,Geotermoelettrico,2023
+Sardegna,Cagliari,0.0,Geotermoelettrico,2023
+Sardegna,Nuoro,0.0,Geotermoelettrico,2023
+Sardegna,Oristano,0.0,Geotermoelettrico,2023
+Sardegna,Sassari,0.0,Geotermoelettrico,2023
+Sardegna,Sud Sardegna,0.0,Geotermoelettrico,2023
+Sicilia,Agrigento,0.0,Geotermoelettrico,2023
+Sicilia,Caltanissetta,0.0,Geotermoelettrico,2023
+Sicilia,Catania,0.0,Geotermoelettrico,2023
+Sicilia,Enna,0.0,Geotermoelettrico,2023
+Sicilia,Messina,0.0,Bioenergie,2023
+Sicilia,Messina,0.0,Geotermoelettrico,2023
+Sicilia,Palermo,0.0,Geotermoelettrico,2023
+Sicilia,Ragusa,0.0,Geotermoelettrico,2023
+Sicilia,Ragusa,0.0,Idrico,2023
+Sicilia,Siracusa,0.0,Geotermoelettrico,2023
+Sicilia,Trapani,0.0,Bioenergie,2023
+Sicilia,Trapani,0.0,Geotermoelettrico,2023
+Toscana,Arezzo,0.0,Geotermoelettrico,2023
+Toscana,Firenze,0.0,Geotermoelettrico,2023
+Toscana,Livorno,0.0,Geotermoelettrico,2023
+Toscana,Livorno,0.0,Idrico,2023
+Toscana,Lucca,0.0,Eolico,2023
+Toscana,Lucca,0.0,Geotermoelettrico,2023
+Toscana,Massa-Carrara,0.0,Bioenergie,2023
+Toscana,Massa-Carrara,0.0,Geotermoelettrico,2023
+Toscana,Pistoia,0.0,Geotermoelettrico,2023
+Toscana,Prato,0.0,Bioenergie,2023
+Toscana,Prato,0.0,Eolico,2023
+Toscana,Prato,0.0,Geotermoelettrico,2023
+Trentino-Alto Adige,Bolzano/Bozen,0.0,Geotermoelettrico,2023
+Trentino-Alto Adige,Trento,0.0,Eolico,2023
+Trentino-Alto Adige,Trento,0.0,Geotermoelettrico,2023
+Umbria,Perugia,0.0,Geotermoelettrico,2023
+Umbria,Terni,0.0,Geotermoelettrico,2023
+Valle d'Aosta,Aosta,0.0,Geotermoelettrico,2023
+Veneto,Belluno,0.0,Eolico,2023
+Veneto,Belluno,0.0,Geotermoelettrico,2023
+Veneto,Padova,0.0,Eolico,2023
+Veneto,Padova,0.0,Geotermoelettrico,2023
+Veneto,Rovigo,0.0,Eolico,2023
+Veneto,Rovigo,0.0,Geotermoelettrico,2023
+Veneto,Treviso,0.0,Eolico,2023
+Veneto,Treviso,0.0,Geotermoelettrico,2023
+Veneto,Venezia,0.0,Eolico,2023
+Veneto,Venezia,0.0,Geotermoelettrico,2023
+Veneto,Verona,0.0,Geotermoelettrico,2023
+Veneto,Vicenza,0.0,Geotermoelettrico,2023
