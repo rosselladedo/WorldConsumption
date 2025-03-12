@@ -363,6 +363,7 @@ if page == "📊Analisi":
     )
     st.plotly_chart(fig_box)
 
+
     # --- Grafico Radar per confrontare variabili chiave per ogni Paese
     # Raggruppa per paese e calcola i totali/medie delle variabili interessate
     radar_data = filtered_prod.groupby('country').agg({
@@ -381,7 +382,13 @@ if page == "📊Analisi":
     st.metric("Produzione Media", f"{filtered_prod['production'].mean():,.2f} MWh")
     st.metric("Massima Produzione", f"{filtered_prod['production'].max():,.2f} MWh")
 
-
+    # Mappa della produzione energetica globale
+    if 'iso_code' in df.columns:
+        map_df = df[(df['fuel'] == selected_fuel) & df['year'].between(selected_years[0], selected_years[1])]
+        fig_map = px.choropleth(map_df, locations='iso_code', color='production',
+                                hover_name='country', title=f"Produzione di {selected_fuel} nel Mondo",
+                                color_continuous_scale='viridis', projection='natural earth')
+        st.plotly_chart(fig_map)
 
     import plotly.graph_objects as go
     fig_radar = go.Figure()
@@ -543,13 +550,8 @@ elif page == "⚒️Funzionalità Avanzate":
         st.write(forecast_data)
         forecast_data = forecast_data.rename(columns={'date': 'ds', 'production': 'y'})  # Prophet richiede colonne 'ds' e 'y'
         
-        st.write(forecast_data['ds'].dtype)
         model = Prophet()
         model.fit(forecast_data)
-
-        # Creazione e allenamento del modello Prophet
-        #model = Prophet(yearly_seasonality=True)
-        #model.fit(forecast_data)
 
     
         # Previsione per i prossimi 5 anni
@@ -569,6 +571,10 @@ elif page == "⚒️Funzionalità Avanzate":
     else:
         st.warning("Nessun dato disponibile per la previsione di questo paese e carburante.")
 
+    #scarica i dati della previsione
+    csv = forecast.to_csv(index=False).encode('utf-8')
+    st.download_button("Scarica CSV", csv, "dati_filtrati.csv", "text/csv", key='download_button_1')
+
     # Funzionalità 2: Clustering con K-Means
     st.header("Clustering dei Paesi con K-Means")
 
@@ -587,9 +593,17 @@ elif page == "⚒️Funzionalità Avanzate":
     st.write(f"### Risultati del Clustering ({k} cluster)")
     st.dataframe(clustering_data_grouped[['country', 'production', 'cluster']])
 
+    # Download del risultato del clustering
+    csv = clustering_data_grouped.to_csv(index=False).encode('utf-8')
+    st.download_button("Scarica CSV", csv, "dati_filtrati.csv", "text/csv", key='download_button_2')
+
     # Grafico dei cluster
     fig_cluster = px.scatter(clustering_data_grouped, x='country', y='production', color='cluster', title="Clustering dei Paesi per Produzione Energetica")
     st.plotly_chart(fig_cluster)
+
+
+
+
 
     col1, col2 = st.columns([6, 1])
     with col2:
