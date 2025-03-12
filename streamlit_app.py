@@ -24,6 +24,8 @@ df = pd.read_csv('WorldConsumption_Prepdataset.csv')
 df_prod_region= pd.read_csv("Produzione_elettrica_da_fonti_rinnovabili_regioni.csv")
 #coordinates_df= pd.read_csv("cities_coordinates.csv")
 cities_df= pd.read_csv("citta_italiane.csv")
+df_rinnovabili_aggregato= pd.read_csv("dataset_giornaliero_aggregato.csv")
+
 
 
 # --- File JSON preferiti
