@@ -337,6 +337,87 @@ if page == "📊Analisi":
         else:
           st.write("Nessun dato disponibile per la distribuzione della produzione energetica.")
                   
+
+    # --- Grafico a dispersione (scatter plot) Produzione vs PIL con dimensione = popolazione
+    # Assicurati che la colonna 'gdp' e 'population' siano disponibili nel dataset filtrato
+    if 'gdp' in filtered_prod.columns and 'population' in filtered_prod.columns:
+        fig_scatter = px.scatter(
+            filtered_prod,
+            x='gdp',
+            y='production',
+            size='population',
+            color='country',
+            title="Produzione vs PIL (dimensione = Popolazione)",
+            hover_data=['country']
+        )
+        st.plotly_chart(fig_scatter)
+    else:
+        st.write("Colonne 'gdp' o 'population' non disponibili per il grafico scatter.")
+
+    # --- Box Plot della distribuzione della produzione per Tipo di Energia
+    fig_box = px.box(
+        filtered_prod,
+        x='fuel',
+        y='production',
+        title="Distribuzione della Produzione per Tipo di Energia"
+    )
+    st.plotly_chart(fig_box)
+
+    # --- Grafico Radar per confrontare variabili chiave per ogni Paese
+    # Raggruppa per paese e calcola i totali/medie delle variabili interessate
+    radar_data = filtered_prod.groupby('country').agg({
+        'production': 'sum',
+        'gdp': 'sum',
+        'population': 'mean',
+        'per_capita': 'mean'
+    }).reset_index()
+
+    # Seleziona le categorie da mostrare (potresti normalizzarle se i range sono molto diversi)
+    categories = ['production', 'gdp', 'population', 'per_capita']
+
+    # Indicatori chiave
+    st.write("### Indicatori Chiave")
+    st.metric("Produzione Totale", f"{filtered_prod['production'].sum():,.2f} MWh")
+    st.metric("Produzione Media", f"{filtered_prod['production'].mean():,.2f} MWh")
+    st.metric("Massima Produzione", f"{filtered_prod['production'].max():,.2f} MWh")
+
+
+
+    import plotly.graph_objects as go
+    fig_radar = go.Figure()
+    for _, row in radar_data.iterrows():
+        fig_radar.add_trace(go.Scatterpolar(
+            r=[row[cat] for cat in categories],
+            theta=categories,
+            fill='toself',
+            name=row['country']
+        ))
+    fig_radar.update_layout(
+        polar=dict(
+            radialaxis=dict(
+                visible=True,
+                # Se i valori sono molto diversi, potresti voler normalizzare o usare un range adatto
+                # range=[0, max(radar_data[categories].max())] 
+            )
+        ),
+        showlegend=True,
+        title="Confronto Variabili per Paese"
+    )
+    st.plotly_chart(fig_radar)
+
+
+
+    # Tabella con i dati filtrati
+    st.write("### Dati Filtrati")
+    st.dataframe(filtered_prod)
+
+    # Download dei dati filtrati
+    csv = filtered_prod.to_csv(index=False).encode('utf-8')
+    st.download_button("Scarica CSV", csv, "dati_filtrati.csv", "text/csv")
+
+
+
+
     col1, col2 = st.columns([6, 1])
     with col2:
       st.image(logo, use_container_width=True)
@@ -350,8 +431,6 @@ elif page == "⚒️Funzionalità Avanzate":
     with col1:
      st.title("Funzionalità Avanzate")
     
-    # Funzionalità 1: Previsione con Prophet
-    st.header("Previsione della Produzione Energetica con Prophet")
 
     # Selezione dei parametri tramite preferito
     # Se ci sono preferiti salvati, offri due modalità tramite un radio button
@@ -418,12 +497,45 @@ elif page == "⚒️Funzionalità Avanzate":
     ]
     
     
+    # Funzionalità 2: Previsione della Produzione Energetica
+
+
+    st.write("### Scenario Futuro - Previsione della Produzione Energetica")
+    country_for_prediction = st.selectbox('Seleziona il Paese per la previsione', selected_countries, key=selected_country)
+    st.write(country_for_prediction)
+
+    # Filtrare i dati per il paese selezionato
+    prediction_df = df[(df['country'] == country_for_prediction) & 
+                        (df['fuel'] == selected_fuel) & 
+                        (df['year'].between(selected_years[0], selected_years[1]))]
+
+    # Previsione con regressione lineare
+    X = prediction_df['year'].values.reshape(-1, 1)
+    y = prediction_df['production'].values
+    model = LinearRegression()
+    model.fit(X, y)
+
+    # Previsione per gli anni futuri
+    future_years = np.array(range(selected_years[1] + 1, selected_years[1] + 6)).reshape(-1, 1)
+    predictions = model.predict(future_years)
+
+    # Visualizzazione del grafico delle previsioni
+    fig_pred = px.line(x=future_years.flatten(), y=predictions, labels={'x': 'Anno', 'y': 'Produzione Energetica'},
+                        title=f"Previsione della Produzione Energetica Futura per {country_for_prediction}")
+    st.plotly_chart(fig_pred)
+
+
+
+    # Funzionalità 2: Previsione con Prophet
+    st.header("Previsione della Produzione Energetica con Prophet")
+    
 
     if not forecast_data.empty:
         st.write(f"### Dati per la previsione di {selected_country} con {selected_fuel}")
         st.dataframe(forecast_data[['year', 'production']])
         forecast_data['date'] = pd.to_datetime(df['year'].astype(str) + '-01-01')
         st.write(forecast_data)
+
 
 
         # Preprocessamento dei dati per Prophet
