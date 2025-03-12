@@ -9,3 +9,4 @@ datetime
 meteostat
 streamlit-lottie
 prophet
+statsmodels
