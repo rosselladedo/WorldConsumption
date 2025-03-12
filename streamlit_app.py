@@ -21,7 +21,7 @@ from sklearn.cluster import KMeans
 # --- Caricamento dei dataset
 df_fuel = pd.read_csv('EnergyDecription.csv')
 df = pd.read_csv('WorldConsumption_Prepdataset.csv')
-df_prod_region= pd.read_csv("Produzione_elettrica_da_fonti_rinnovabili_regioni.csv")
+df_prod_region= pd.read_csv("Produzione_rinnovabile_regioni212223.csv")
 #coordinates_df= pd.read_csv("cities_coordinates.csv")
 cities_df= pd.read_csv("citta_italiane.csv")
 df_rinnovabili_aggregato= pd.read_csv("dataset_giornaliero_aggregato.csv")
