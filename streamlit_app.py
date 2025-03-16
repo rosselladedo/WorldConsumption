@@ -15,6 +15,7 @@ from meteostat import Stations, Daily
 from streamlit_lottie import st_lottie
 
 
+
 # Import funzionalità avanzate
 from prophet import Prophet       
 from sklearn.cluster import KMeans
@@ -114,7 +115,7 @@ if page == "🌎Home":
     # Mostra l'animazione
     st_lottie(lottie_earth, speed=1, width=700, height=300, key="earth_animation")
 
-    
+        
     st.markdown(""" 
     <style>
         .justified-text {
