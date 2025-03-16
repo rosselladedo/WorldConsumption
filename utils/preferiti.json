@@ -1,0 +1,28 @@
+{
+    "preferiti": [
+        {
+            "nome preferito": "Preferito 1",
+            "paese": [
+                "Spain",
+                "Italy",
+                "Germany"
+            ],
+            "anno da": 2000,
+            "anno a": 2020,
+            "energia": "biofuel"
+        },
+        {
+            "nome preferito": "Preferito2",
+            "paese": [
+                "Spain",
+                "Aruba",
+                "Afghanistan",
+                "Asia & Oceania (EIA)",
+                "Africa"
+            ],
+            "anno da": 2010,
+            "anno a": 2015,
+            "energia": "solar"
+        }
+    ]
+}
