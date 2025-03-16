@@ -32,7 +32,6 @@ def analisi_avanzate(df, df_fuel, favorites_file):
     prediction_df = filtered_dataset[filtered_dataset['country'] == selected_country]
     # 📌 **Selezione del Paese per la Previsione**
     if not filtered_dataset.empty:
-        selected_country = st.selectbox('Seleziona il Paese per la previsione', selected_countries)
         forecast_data = filtered_dataset[
             (filtered_dataset['country'] == selected_country) & 
             (filtered_dataset['fuel'] == selected_fuel)
