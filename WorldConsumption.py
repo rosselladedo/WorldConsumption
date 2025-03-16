@@ -131,7 +131,6 @@ elif page == "⚒️Funzionalità Avanzate":
     with col2:
      st.title("Funzionalità Avanzate")
     
-    filtered_dataset, selected_countries, selected_fuel, selected_years= parametri.seleziona_parametri(df, df_fuel, favorites_file,key_prefix="analisi_avanzate")
     analisi_avanzate(df, df_fuel, favorites_file)
   
 

@@ -8,7 +8,7 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 from sklearn.cluster import KMeans
 from prophet import Prophet
-from utils.parametri import seleziona_parametri  # IMPORTIAMO LA SELEZIONE DEI PARAMETRI
+from utils.parametri import seleziona_parametri  
 
 def analisi_avanzate(df, df_fuel, favorites_file):
     """
