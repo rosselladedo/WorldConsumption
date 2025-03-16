@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import base64
 from sklearn.linear_model import LinearRegression
 import numpy as np
 import seaborn as sns
@@ -24,8 +25,7 @@ df = pd.read_csv('WorldConsumption_Prepdataset.csv')
 df_prod_region= pd.read_csv("Produzione_rinnovabile_regioni212223.csv")
 #coordinates_df= pd.read_csv("cities_coordinates.csv")
 cities_df= pd.read_csv("citta_italiane.csv")
-df_rinnovabili_aggregato= pd.read_csv("dataset_giornaliero_aggregato.csv")
-
+#df_rinnovabili_aggregato= pd.read_csv("dataset_giornaliero_aggregato.csv")
 
 
 # --- File JSON preferiti
@@ -116,25 +116,36 @@ if page == "🌎Home":
     st_lottie(lottie_earth, speed=1, width=700, height=300, key="earth_animation")
 
     
-    st.markdown("""
-      <h3 style='text-align: center;'>Benvenuto nella World Energy dashboard </h3>
-      <p style='text-align: center;'>Usa il menu laterale per navigare tra le diverse sezioni. Scopri l'andamento dei consumi energetici e le tendenze future</p>
-      """, unsafe_allow_html=True) 
-    
-  
+    st.markdown(""" 
+    <style>
+        .justified-text {
+            text-align: justify;
+            max-width: 620px;  /* Limita la larghezza per una migliore leggibilità */
+            margin: auto;  /* Centra il testo */
+            padding: 10px; /* Riduce gli spazi interni */
+        }
 
-    st.image(logo, use_container_width=True)
+    </style>
+
+    <div class="justified-text">
+        <h3 style='text-align: center;'>BENVENUTO NELLA WORLD ENERGY DASHBOARD</h3>
+        <br>
+        <p>
+        Questa dashboard interattiva è stata sviluppata per analizzare e visualizzare i dati sulla produzione e il consumo di energia a livello globale e regionale. Grazie agli strumenti di analisi avanzati, offre una panoramica dettagliata sull'evoluzione delle diverse fonti energetiche, permettendo di comprendere le tendenze e i cambiamenti nel settore.
+        Attraverso questa piattaforma, è possibile esplorare i consumi energetici e confrontare l'andamento della produzione per diverse fonti, come idroelettrico, eolico, solare, nucleare e molte altre. L’integrazione con dati meteorologici consente inoltre di valutare l’influenza delle condizioni climatiche sulla produzione di energia rinnovabile.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
 
      
 
 # -------------------- PAGINA PREFERITI --------------------
 elif page == "✅Preferiti":
-    col1, col2 = st.columns([1, 1])
-    with col2:
-      st_lottie(lottie_sun, speed=1, width=300, height=300, key="sun_animation")
+    col1, col2 = st.columns([1, 3])
     with col1:
-      st.title(" ")
+      st_lottie(lottie_sun, speed=1, width=100, height=100, key="sun_animation")
+    with col2:
       st.title("Gestione Preferiti")
     
     st.write("### I tuoi preferiti salvati:")
@@ -184,19 +195,13 @@ elif page == "✅Preferiti":
         else:
             st.warning("Non ci sono preferiti salvati.")
 
-    col1, col2 = st.columns([6, 1])
-    with col2:
-      st.image(logo, use_container_width=True)
-    with col1:
-      st.title(" ")
 
 # -------------------- PAGINA ANALISI --------------------
 if page == "📊Analisi":
-    col1, col2 = st.columns([1, 1])
-    with col2:
-      st_lottie(lottie_clouds, speed=1, width=300, height=300, key="clouds_animation")
+    col1, col2 = st.columns([1, 3])
     with col1:
-      st.title(" ")
+      st_lottie(lottie_clouds, speed=1, width=100, height=100, key="clouds_animation")
+    with col2:
       st.title("Analisi dei Dati")
 
     # Se ci sono preferiti salvati, offri due modalità tramite un radio button
@@ -424,20 +429,13 @@ if page == "📊Analisi":
     csv = filtered_prod.to_csv(index=False).encode('utf-8')
     st.download_button("Scarica CSV", csv, "dati_filtrati.csv", "text/csv")
 
-
-
-
-    col1, col2 = st.columns([6, 1])
-    with col2:
-      st.image(logo, use_container_width=True)
-    with col1:
-      st.title(" ")        
+    
 # -------------------- PAGINA FUNZIONALITÀ AVANZATE --------------------
 elif page == "⚒️Funzionalità Avanzate": 
-    col1, col2 = st.columns([2, 1])
-    with col2:
-      st_lottie(lottie_spin, speed=1, width=200, height=200, key="spin_animation")
+    col1, col2 = st.columns([1, 4])
     with col1:
+      st_lottie(lottie_spin, speed=1, width=100, height=100, key="spin_animation")
+    with col2:
      st.title("Funzionalità Avanzate")
     
 
@@ -607,20 +605,13 @@ elif page == "⚒️Funzionalità Avanzate":
 
 
 
-    col1, col2 = st.columns([6, 1])
-    with col2:
-      st.image(logo, use_container_width=True)
-    with col1:
-      st.title(" ")
-
-
 
 # -------------------- PAGINA METEOSTAT --------------------
 elif page == "🌫️Meteostat":
-  col1, col2 = st.columns([2, 1])
-  with col2:
-      st_lottie(lottie_wind, speed=1, width=200, height=200, key="wind_animation")
+  col1, col2 = st.columns([1, 3])
   with col1:
+      st_lottie(lottie_wind, speed=1, width=100, height=100, key="wind_animation")
+  with col2:
       st.title("Funzionalità MeteoStat")
 
   # Input per la data (st.date_input restituisce un oggetto date)
@@ -645,20 +636,27 @@ elif page == "🌫️Meteostat":
   st.write(f"🌍 **Città selezionata:** {selected_city} | **Regione:** {selected_region}")
 
   # Filtraggio dati per la regione trovata
-  region_data = df_prod_region[df_prod_region["Regioni"] == selected_region]
+  region_data = df_prod_region[df_prod_region["Regione"] == selected_region]
   
+  #df_rinnovabili_aggregato["Date"] = pd.to_datetime(df_rinnovabili_aggregato["Date"])
+  start_year = start_date.year
+  st.write(start_year)
+  region_aggregated = region_data.groupby("Fonte")["Produzione (GWh)"].sum().reset_index()
+  st.write(f"### Produzione di Energia Rinnovabile in {selected_region} ({start_year})")
+
     # Visualizzazione della produzione di energia per fonte
-  st.write(f"### Produzione di Energia Rinnovabile in {selected_region}")
   fig = px.bar(
-        region_data.melt(id_vars=["Regioni"], var_name="Fonte", value_name="Produzione"),
-        x="Fonte", y="Produzione", title=f"Produzione Energetica per Fonte - {selected_region}",
-        color="Fonte", labels={"Produzione": "GWh"}
-    )
+    region_aggregated,
+    x="Fonte",
+    y="Produzione (GWh)",
+    title=f"Produzione Energetica per Fonte - {selected_region} ({start_year})",
+    color="Fonte",
+    labels={"Produzione (GWh)": "GWh"}
+  )
   st.plotly_chart(fig)
 
   # Indicatori chiave sulla produzione energetica
-  st.metric("Totale Rinnovabili", f"{region_data['Totale rinnov.'].values[0]:,.2f} GWh")
-  st.metric("Totale Produzione", f"{region_data['Totale'].values[0]:,.2f} GWh")
+  st.metric("Totale Produzione Rinnovabili", f"{region_data['Produzione (GWh)'].values[0]:,.2f} GWh")
 
   # Input per latitudine e longitudine
   #lat = st.number_input("Inserisci latitudine", value=41.9028, format="%.4f")
@@ -705,13 +703,13 @@ elif page == "🌫️Meteostat":
 
 
 #correlazione tra temperatura media e produzione id energia rinnovabile
-  st.write("### 🔗 Correlazione tra Temperatura Media e Produzione di Energia Rinnovabile")
+  st.write("###  Correlazione tra Temperatura Media e Produzione di Energia Rinnovabile")
 
 # Creiamo un DataFrame con la media giornaliera della temperatura e la produzione energetica totale
   production_vs_temp = pd.DataFrame({
                 "Data": data.index,
                 "Temperatura Media (°C)": data["tavg"],
-                "Produzione Totale Rinnovabile (GWh)": region_data["Totale rinnov."].values[0]
+                "Produzione Totale Rinnovabile (GWh)": region_data["Produzione (GWh)"].values[0]
             })
 
             # Creazione scatter plot interattivo
@@ -722,8 +720,29 @@ elif page == "🌫️Meteostat":
             )
   st.plotly_chart(fig_corr)
 
-col1, col2 = st.columns([6, 1])
-with col2:
-      st.image(logo, use_container_width=True)
-with col1:
-      st.title(" ")
+#logo dashboard
+
+logo_url='https://raw.githubusercontent.com/rosselladedo/WorldConsumption/main/logo_dashboard.jpg'
+st.markdown(""" 
+    <style>
+        .footer-line {
+            width: 50%;  /* Larghezza ridotta per rispettare i margini */
+            height: 1px;  /* Spessore sottile */
+            background-color: grey;
+            margin: 20px auto;  /* Distanza dal contenuto e centratura */
+            opacity: 0.7; /* Leggera trasparenza per un effetto più elegante */
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
+st.markdown(
+    f"""
+    <div class="footer-line"></div>  <!-- Riga sottile grigia -->
+    <div style="display: flex; justify-content: center;">
+        <img src="{logo_url}" style="width: 150px;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
