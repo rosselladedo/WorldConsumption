@@ -28,7 +28,7 @@ df_rinnovabili_aggregato= pd.read_csv("data/dataset_giornaliero_aggregato.csv")
 
 
 # --- File JSON preferiti
-favorites_file = 'preferiti.json' #preferiti
+favorites_file = 'utils/preferiti.json' #preferiti
 
 
 
@@ -62,13 +62,13 @@ def load_image_from_url(url):
         return None
 
 #caricamento animazioni pagine
-lottie_earth = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/world_Page.json') #animazione mondo pagina iniziale
-lottie_sun = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/sun.json') #animazione sole pagine
-lottie_spin = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/world_spin.json') #animazione mondo pagine
-lottie_clouds = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/clouds.json') #animazione mondo pagine
-lottie_wind = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/wind.json') #animazione mondo pagine
-lottie_click = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/click.json') #animazione mondo pagine
-logo=load_image_from_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/main/logo_dashboard.jpg')
+lottie_earth = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/animations/world_Page.json') #animazione mondo pagina iniziale
+lottie_sun = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/animations/sun.json') #animazione sole pagine
+lottie_spin = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/animations/world_spin.json') #animazione mondo pagine
+lottie_clouds = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/animations/clouds.json') #animazione mondo pagine
+lottie_wind = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/animations/wind.json') #animazione mondo pagine
+lottie_click = load_lottie_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/refs/heads/main/animations/click.json') #animazione mondo pagine
+logo=load_image_from_url('https://raw.githubusercontent.com/rosselladedo/WorldConsumption/main/utils/logo_dashboard.jpg')
 
 # --- Funzioni per la gestione dei preferiti
 def leggi_preferiti(favorites_file):
