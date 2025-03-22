@@ -33,24 +33,35 @@ def seleziona_parametri(df, df_fuel, favorites_file,key_prefix="default"):
                 st.write(f"📅 Anni: {selected_years[0]} - {selected_years[1]}")
                 st.write(f"⚡ Energia: {selected_fuel}")
     
-    # 🔵 Modalità di selezione manuale
+        # 🔵 Modalità di selezione manuale
     if len(preferiti) == 0 or mode == "Inserisci i dati manualmente":
         st.write("🔧 **Inserisci i dati manualmente**")
 
         # Selezione dei paesi disponibili nel dataset
-        selected_countries = st.multiselect("Seleziona uno o più Paesi", df['country'].unique())
-        key=f"{key_prefix}_countries_multiselect"
+        selected_countries = st.multiselect(
+            "Seleziona uno o più Paesi", 
+            options=sorted(df['country'].unique()),
+            key=f"{key_prefix}_countries_multiselect"
+        )
 
         # Selezione del tipo di energia
-        selected_fuel = st.selectbox("Seleziona il Tipo di Energia", df['fuel'].unique()),
-        key=f"{key_prefix}_fuel_select"
+        selected_fuel = st.selectbox(
+            "Seleziona il Tipo di Energia", 
+            options=sorted(df['fuel'].unique()),
+            key=f"{key_prefix}_fuel_select"
+        )
 
         # Selezione intervallo temporale
         min_year = int(df['year'].min())
         max_year = int(df['year'].max())
-        selected_years = st.slider("Seleziona intervallo di anni", min_year, max_year, (min_year, max_year)),
-        key=f"{key_prefix}_years_slider"
-        
+        selected_years = st.slider(
+            "Seleziona intervallo di anni",
+            min_value=min_year,
+            max_value=max_year,
+            value=(min_year, max_year),
+            key=f"{key_prefix}_years_slider"
+        )
+            
     # 🟠 **Filtraggio del dataset in base ai parametri selezionati**
     filtered_dataset = df[
         (df['country'].isin(selected_countries)) &
