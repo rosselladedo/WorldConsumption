@@ -138,6 +138,25 @@ def analizza_dati(filtered_dataset):
         )
         st.plotly_chart(fig_radar)
 
+        # 1️⃣1️⃣ Mappa mondiale della produzione energetica
+        st.write("### 🗺️ Mappa Mondiale della Produzione Energetica")
+
+        # Raggruppamento per paese
+        map_data = filtered_dataset.groupby(['iso_code', 'country'])['production'].sum().reset_index()
+
+        # Generazione della mappa
+        fig_map = px.choropleth(
+            map_data,
+            locations="iso_code",
+            color="production",
+            hover_name="country",
+            color_continuous_scale=px.colors.sequential.YlOrRd,
+            title="Produzione Energetica Totale per Paese"
+        )
+
+        st.plotly_chart(fig_map)
+
+
         # 🔽 **Tabella Dati Filtrati + Download CSV**
         st.write("### 📋 Dati Filtrati")
         st.dataframe(filtered_dataset)
