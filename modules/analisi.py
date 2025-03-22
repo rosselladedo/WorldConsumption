@@ -6,11 +6,23 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def analizza_dati(filtered_dataset):
+def analizza_dati(filtered_dataset, selected_fuel, df_fuel):
     """
     Funzione per l'analisi dei dati energetici.
     Mostra statistiche, visualizzazioni e tendenze sulla produzione energetica.
     """
+
+    if 'description' in df_fuel.columns:
+        descrizioni = df_fuel[df_fuel['fuel'] == selected_fuel]['description']
+        if not descrizioni.empty:
+         st.write(f"### Descrizione di {selected_fuel.capitalize()}")
+         st.write(descrizioni.values[0])
+        else:
+         st.warning("Descrizione non trovata per il fuel selezionato.")
+    else:
+     st.info("Il dataset delle descrizioni non contiene la colonna 'description'.")
+
+
 
     if not filtered_dataset.empty:
         # 1️⃣ **Analisi della Crescita**
