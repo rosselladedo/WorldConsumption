@@ -18,5 +18,6 @@ def home():
             Questa dashboard interattiva è stata sviluppata per analizzare e visualizzare i dati sulla produzione e il consumo di energia a livello globale e regionale. Grazie agli strumenti di analisi avanzati, offre una panoramica dettagliata sull'evoluzione delle diverse fonti energetiche, permettendo di comprendere le tendenze e i cambiamenti nel settore.
             Attraverso questa piattaforma, è possibile esplorare i consumi energetici e confrontare l'andamento della produzione per diverse fonti, come idroelettrico, eolico, solare, nucleare e molte altre. L’integrazione con dati meteorologici consente inoltre di valutare l’influenza delle condizioni climatiche sulla produzione di energia rinnovabile.
             </p>
+                 <p style='text-align: center;'><strong>Utilizza il menù laterale per navigare tra le sezioni della dashboard.</strong></p>
         </div>
         """, unsafe_allow_html=True)

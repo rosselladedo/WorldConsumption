@@ -121,7 +121,7 @@ if page == "📊Analisi":
       st.title("Analisi dei Dati")
 
     filtered_dataset, selected_countries, selected_fuel, selected_years= parametri.seleziona_parametri(df, df_fuel, favorites_file,key_prefix="analisi")
-    analisi.analizza_dati(filtered_dataset, selected_fuel, df_fuel)
+    analisi.analizza_dati(filtered_dataset, selected_fuel, df_fuel,selected_years)
     
 # -------------------- PAGINA FUNZIONALITÀ AVANZATE --------------------
 elif page == "⚒️Funzionalità Avanzate": 

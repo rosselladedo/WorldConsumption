@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def analizza_dati(filtered_dataset, selected_fuel, df_fuel):
+def analizza_dati(filtered_dataset, selected_fuel, df_fuel, selected_years):
     """
     Funzione per l'analisi dei dati energetici.
     Mostra statistiche, visualizzazioni e tendenze sulla produzione energetica.
@@ -26,10 +26,39 @@ def analizza_dati(filtered_dataset, selected_fuel, df_fuel):
 
     if not filtered_dataset.empty:
         # 1️⃣ **Analisi della Crescita**
-        filtered_df_growth = filtered_dataset.groupby('country')['production'].agg(['min', 'max']).reset_index()
-        filtered_df_growth['growth_rate'] = (filtered_df_growth['max'] - filtered_df_growth['min']) / filtered_df_growth['min'] * 100
-        st.write("### 📈 Tasso di Crescita della Produzione Energetica")
-        st.dataframe(filtered_df_growth[['country', 'growth_rate']])
+               # 📈 Tasso di Crescita tra gli anni selezionati
+        start_year, end_year = selected_years
+
+        st.write(f"### 📈 Tasso di Crescita ({start_year}–{end_year}) per Paese")
+
+        # Filtra i dati per gli anni selezionati
+        df_years = filtered_dataset[filtered_dataset['year'].isin([start_year, end_year])]
+
+        # Tiene solo i paesi che hanno entrambi gli anni
+        year_counts = df_years.groupby('country')['year'].nunique()
+        valid_countries = year_counts[year_counts == 2].index.tolist()
+        df_valid = df_years[df_years['country'].isin(valid_countries)]
+
+        # Raggruppa per anno e paese
+        prod_by_country_year = df_valid.groupby(['country', 'year'])['production'].sum().reset_index()
+
+        # Calcola produzione per inizio e fine anno
+        first_year = prod_by_country_year[prod_by_country_year['year'] == start_year].set_index('country')
+        last_year = prod_by_country_year[prod_by_country_year['year'] == end_year].set_index('country')
+
+        # Calcolo della crescita
+        growth_df = first_year[['production']].rename(columns={'production': 'start_prod'}).join(
+            last_year[['production']].rename(columns={'production': 'end_prod'})
+        )
+
+        import numpy as np
+        growth_df['growth_%'] = ((growth_df['end_prod'] - growth_df['start_prod']) / growth_df['start_prod']) * 100
+        growth_df = growth_df.replace([np.inf, -np.inf], np.nan).dropna()
+        growth_df = growth_df.sort_values(by='growth_%', ascending=False)
+
+        st.dataframe(growth_df.reset_index()[['country', 'growth_%']].head(10))
+
+
 
         # 2️⃣ **Redditività dell'Investimento (normalizzati)**
         if 'normalized_production_per_gdp' in filtered_dataset.columns:
@@ -57,7 +86,14 @@ def analizza_dati(filtered_dataset, selected_fuel, df_fuel):
         else:
             st.warning("Non tutte le colonne richieste sono disponibili.")
 
+
+        
+
         # 4️⃣ **Ranking Paesi per Crescita**
+        filtered_df_growth = filtered_dataset.groupby('country')['production'].agg(['min', 'max']).reset_index()
+        filtered_df_growth = filtered_df_growth[filtered_df_growth['min'] > 0]  # evita divisione per zero
+        filtered_df_growth['growth_rate'] = (filtered_df_growth['max'] - filtered_df_growth['min']) / filtered_df_growth['min'] * 100
+        
         ranking_df = filtered_df_growth.sort_values(by='growth_rate', ascending=False)
         st.write("### 🏆 Ranking dei Paesi per Crescita")
         st.dataframe(ranking_df[['country', 'growth_rate']])
