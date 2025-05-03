@@ -53,6 +53,9 @@ Modifica
 ├── requirements.txt            # Dipendenze Python
 └── README.md                   # Questo file
 
+<img width="308" alt="image" src="https://github.com/user-attachments/assets/bb1de7d0-4d75-4a3a-a7ec-678d95e0363e" />
+
+
 -------🚀 Funzionalità principali
 Analisi personalizzabile: filtro per paese, anno, fonte energetica.
 Salvataggio preferenze: ogni utente può salvare combinazioni ricorrenti di analisi.
