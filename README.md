@@ -22,36 +22,6 @@ scikit-learn -> clustering con K-Means
 Meteostat API ->per i dati meteorologici
 
 -----📁 Struttura del progetto
-bash
-Copia
-Modifica
-📂 WorldConsumption/
-│
-├── WorldConsumption.py          # File principale per l'avvio della dashboard
-│
-├── 📂 data/                     # Dataset utilizzati
-│   ├── WorldConsumption_Prepdataset.csv
-│   ├── EnergyDecription.csv
-│   ├── citta_italiane.csv
-│   ├── dataset_giornaliero_aggregato.csv
-│   └── Produzione_elettrica_da_fonti_rinnovabili_regioni.csv
-│
-├── 📂 utils/                    # Funzioni di utilità
-│   ├── functions.py            # Funzioni per la gestione preferiti e file
-│   └── parametri.py            # Gestione dei filtri e parametri dinamici
-│
-├── 📂 modules/                 # Moduli della dashboard
-│   ├── home.py
-│   ├── analisi.py
-│   ├── analisi_avanzate.py
-│   ├── meteostat.py
-│   └── preferiti.py
-│
-├── 📂 animations/              # Animazioni Lottie per la UI
-│   └── *.json
-│
-├── requirements.txt            # Dipendenze Python
-└── README.md                   # Questo file
 
 <img width="308" alt="image" src="https://github.com/user-attachments/assets/bb1de7d0-4d75-4a3a-a7ec-678d95e0363e" />
 
